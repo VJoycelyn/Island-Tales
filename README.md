@@ -2,7 +2,9 @@
 
 ##Demo 
 Explore the project here:
-**[Play the Island Tales Intearctive Game Here] (https://island-tales-game.preview.emergentagent.com/)
+**[Play the Island Tales Intearctive Game Here] 
+
+https://island-tales-game.preview.emergentagent.com
 
 **Island Tales** is an Interactive, location-aware heritage storytelling and educational game for children. It bridges the gap between Caribbean folklore and high-tech accessibility. 
 
