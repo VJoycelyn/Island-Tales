@@ -4,9 +4,11 @@
 Explore the project here:
 **[Play the Island Tales Intearctive Game Here] 
 
-https://island-tales-game.preview.emergentagent.com/
+https://islandtales-oatbsxnq.manus.space/
 
 **Island Tales** is an Interactive, location-aware heritage storytelling and educational game for children. It bridges the gap between Caribbean folklore and high-tech accessibility. 
+
+**Island Tales** as it was originally called is now **Island Tales by Caribbean Scribbles** it was originall prototyped on the Emergent Platform. As of April 2026, the project has been migrated to **Manus** to leverage advanced AI-automated workflows and enhanced narrative branching capabilities. You can explore the latest iteration via the link above. 
 
 ##About the Project 
 Built as part of the **Build Club Women in AI Accelerator**, Island Tales usses generative AI to turn traditional Caribbean legends int immersive, character-driven experiences. 
