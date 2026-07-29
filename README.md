@@ -1,32 +1,111 @@
-# Island-Tales
+# Caribbean Scribbles — Book Recommendations Newsfeed
 
-##Demo 
-Explore the project here:
-**[Play the Island Tales Intearctive Game Here] 
+**Live site:** [vjoycelyn.github.io/Island-Tales](https://vjoycelyn.github.io/Island-Tales/)  
+**Main website:** [caribbeanscribblespublishing.com](https://caribbeanscribblespublishing.com/)
 
-https://islandtales-oatbsxnq.manus.space/
+A GitHub Pages newsfeed showcasing weekly rotating Caribbean children's book recommendations from Caribbean Scribbles Publishing, with newsletter signup and automated welcome emails.
 
-**Island Tales** is an Interactive, location-aware heritage storytelling and educational game for children. It bridges the gap between Caribbean folklore and high-tech accessibility. 
+---
 
-**Island Tales** as it was originally called is now **Island Tales by Caribbean Scribbles** it was originall prototyped on the Emergent Platform. As of April 2026, the project has been migrated to **Manus** to leverage advanced AI-automated workflows and enhanced narrative branching capabilities. You can explore the latest iteration via the link above. 
+## What This Site Does
 
-##About the Project 
-Built as part of the **Build Club Women in AI Accelerator**, Island Tales usses generative AI to turn traditional Caribbean legends int immersive, character-driven experiences. 
+- **Weekly rotating book pick** — automatically shows the current week's featured book based on the date
+- **Full book recommendations grid** — all 7 Caribbean Scribbles titles with Amazon links
+- **Newsletter signup form** — collects name, email, and reader type
+- **Automated welcome email** — sent automatically when someone subscribes (via Formspree + Mailchimp/beehiiv)
+- **RSS feed** — `weekly-book-feed.xml` for podcast apps and RSS readers
 
-##Why 100x?: The Challenge (The Process Being Redefined): Historically, the digital preservation of Kittitian folklore has been hindered by a labor-intensive heritage experience, one had to manually bridge historical research, linguistic translation into Kittitian creole, multi-model asset generation, and technical web deployment. This manual workflow limited the volume, frequency and accessibility of cultural stories I could share. 
+---
 
-**The 100X Solution**: I have engineered an AI-driven content automation pipleline that eliminates these manual bottlenecks. by integrating generative AI agents (Manus, Gemini) with my web architecture, I have transformed the process from a linear, week-long production cycle into a streamlined, iterative workflow. I can now ingest raw historical data and output fully realized, brancing, and localized interactive narrativecs in a fraction of the time. 
+## Files
 
-##The Professional value: This project demonstrates my ability to leverage cutting-edge AI to create scalable, high-impact digital experiences. By automating the 'heavy lifting' of content creation, I am now able to focus my role on high-value tasks, curating deeper cultural narratives, expanding community enagement, and evolving Island Tales intoa  robust, global platform for Saint Kitts heritage. I am not just documenting history; I am automating its future accessibility. 
+| File | Purpose |
+|------|---------|
+| `index.html` | Main page — newsfeed, featured pick, signup form |
+| `style.css` | All styling — matches Caribbean Scribbles brand colours |
+| `feed.js` | Renders book cards and featured pick from data |
+| `subscribe.js` | Handles newsletter signup form submission |
+| `weekly-book-feed.xml` | RSS feed for external readers |
+| `newsletter-welcome-template.html` | Welcome email template for new subscribers |
 
-**Update**: Island Tales by Caribbean Scribbles has evolved from a static prototype to an AI-automated engine. I have migrated the core architecture to Manus, whichallows for a more robust, scalable and complex branching narrative structure. 
+---
 
-##Technology Stack
--**Platform;** Built on the Emergent Platform 
-New Technology Stack: Manus (Development & Workflow Automation), Generative AI (Narrative & Asset Generation), GitHub (Version Control & Deployment) 
+## Setup: Newsletter Automation (5 minutes)
 
+### Step 1 — Create a Free Formspree Account
 
+1. Go to [formspree.io](https://formspree.io) and sign up (free)
+2. Click **New Form** → name it "Caribbean Scribbles Newsletter"
+3. Copy your form endpoint URL (looks like `https://formspree.io/f/xpwzabcd`)
 
-##Founder
-Venetta J. Smithen
-*Author|Publisher 
+### Step 2 — Update subscribe.js
+
+Open `subscribe.js` and replace the endpoint on line 15:
+
+```javascript
+const FORMSPREE_ENDPOINT = "https://formspree.io/f/YOUR_FORM_ID_HERE";
+```
+
+### Step 3 — Connect Formspree to Mailchimp (Auto Welcome Email)
+
+In your Formspree dashboard:
+1. Go to your form → **Integrations**
+2. Click **Mailchimp** (or beehiiv)
+3. Connect your Mailchimp account
+4. Map the `email` field to your mailing list
+5. In Mailchimp, set up an **Automation → Welcome Email** using `newsletter-welcome-template.html`
+
+That's it — every new subscriber automatically gets a welcome email with your book picks!
+
+### Step 4 — Enable GitHub Pages
+
+In your GitHub repo:
+1. Go to **Settings → Pages**
+2. Set Source to **Deploy from a branch**
+3. Select `main` branch, `/ (root)` folder
+4. Save — your site will be live at `https://vjoycelyn.github.io/Island-Tales/`
+
+---
+
+## Customising the Book Feed
+
+To add or update books, edit the `BOOKS` array in `feed.js`:
+
+```javascript
+{
+  id: "AMAZON_ASIN",
+  title: "Book Title",
+  ages: "Ages X–Y",
+  tag: "Genre · Category",
+  desc: "Short description (1–2 sentences).",
+  amazon: "https://www.amazon.com/dp/ASIN",
+  cover: "https://images-na.ssl-images-amazon.com/images/P/ASIN.01.LZZZZZZZ.jpg",
+  week: 8,          // week number in rotation
+  featured: false   // set true for the default featured pick
+}
+```
+
+The weekly rotation automatically cycles through all books based on the current date.
+
+---
+
+## Brand Colours
+
+| Colour | Hex | Use |
+|--------|-----|-----|
+| Deep Green | `#0f4c3a` | Headers, accents, links |
+| Coral Red | `#d64545` | Buttons, CTAs |
+| Cream | `#faf7f2` | Page background |
+| Sand | `#f3ede3` | Card backgrounds |
+
+---
+
+## About Caribbean Scribbles Publishing
+
+Caribbean Scribbles Publishing is a Saint Kitts & Nevis based hybrid publishing studio helping Caribbean voices reach readers everywhere — in classrooms, on tablets, in libraries, and in little hands at bedtime.
+
+**Founder:** Venetta J. Smithen — Author | Publisher
+
+---
+
+*Built with GitHub Pages · No server required · Fully static*

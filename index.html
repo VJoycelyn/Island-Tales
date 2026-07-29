@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Caribbean Scribbles — Book Recommendations Feed</title>
+  <meta name="description" content="Weekly Caribbean children's book recommendations from Caribbean Scribbles Publishing. Curated picks celebrating island stories, culture, and heritage." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="https://caribbeanscribblespublishing.com/" class="logo-link">
+        <span class="logo-text">Caribbean Scribbles</span>
+        <span class="logo-sub">Publishing &amp; Digital Story Studio</span>
+      </a>
+      <nav class="header-nav">
+        <a href="https://caribbeanscribblespublishing.com/#shop">Shop Books</a>
+        <a href="https://caribbeanscribblespublishing.com/#about">About</a>
+        <a href="#subscribe" class="btn-nav">Join Newsletter</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="hero-inner">
+      <p class="hero-eyebrow">📚 Weekly Book Picks</p>
+      <h1>Caribbean Reads Your<br>Little One Will Love</h1>
+      <p class="hero-sub">Curated Caribbean children's book recommendations — delivered every Monday, Wednesday &amp; Friday.</p>
+      <a href="#subscribe" class="btn-primary">Get Free Recommendations →</a>
+    </div>
+    <div class="hero-wave">
+      <svg viewBox="0 0 1440 80" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#faf7f2"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ===== THIS WEEK'S PICK ===== -->
+  <section class="featured-section">
+    <div class="container">
+      <div class="section-label">⭐ This Week's Featured Pick</div>
+      <div class="featured-card" id="featured-book">
+        <!-- Populated by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== NEWSFEED ===== -->
+  <section class="feed-section">
+    <div class="container">
+      <h2 class="section-title">All Book Recommendations</h2>
+      <p class="section-sub">Browse our full shelf of Caribbean stories — perfect for gifting, classrooms, and bedtime.</p>
+      <div class="feed-grid" id="book-feed">
+        <!-- Populated by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== NEWSLETTER SIGNUP ===== -->
+  <section class="subscribe-section" id="subscribe">
+    <div class="container">
+      <div class="subscribe-card">
+        <div class="subscribe-text">
+          <h2>Get Weekly Caribbean Book Picks</h2>
+          <p>Join our mailing list and receive curated Caribbean children's book recommendations straight to your inbox — plus Saint Kitts news and publishing updates.</p>
+          <ul class="subscribe-perks">
+            <li>✅ Weekly rotating book pick with Amazon link</li>
+            <li>✅ Saint Kitts &amp; Caribbean news digest</li>
+            <li>✅ New release announcements</li>
+            <li>✅ Exclusive author notes from Venetta</li>
+          </ul>
+        </div>
+        <div class="subscribe-form-wrap">
+          <form id="subscribe-form" class="subscribe-form" novalidate>
+            <label for="sub-name">Your name</label>
+            <input type="text" id="sub-name" name="name" placeholder="e.g. Anika" required />
+
+            <label for="sub-email">Email address</label>
+            <input type="email" id="sub-email" name="email" placeholder="you@example.com" required />
+
+            <label for="sub-role">I am a…</label>
+            <select id="sub-role" name="role">
+              <option value="">Select one</option>
+              <option value="parent">Parent / Guardian</option>
+              <option value="teacher">Teacher / Educator</option>
+              <option value="diaspora">Caribbean Diaspora</option>
+              <option value="community">Community Member</option>
+              <option value="general">General Book Lover</option>
+            </select>
+
+            <button type="submit" class="btn-submit" id="submit-btn">
+              <span id="btn-label">Subscribe &amp; Get My First Pick →</span>
+              <span id="btn-spinner" class="spinner hidden"></span>
+            </button>
+
+            <p class="form-note">No spam. Unsubscribe any time. Your email stays private.</p>
+          </form>
+          <div id="subscribe-success" class="subscribe-success hidden">
+            <div class="success-icon">🎉</div>
+            <h3>You're on the list!</h3>
+            <p>Check your inbox — your first Caribbean book recommendation is on its way.</p>
+            <a href="https://caribbeanscribblespublishing.com/#shop" class="btn-primary" style="margin-top:1rem;">Browse All Books →</a>
+          </div>
+          <div id="subscribe-error" class="subscribe-error hidden">
+            <p>Something went wrong. Please try again or email us at <a href="mailto:caribbeanscribbles@gmail.com">caribbeanscribbles@gmail.com</a>.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RSS FEED BADGE ===== -->
+  <section class="rss-section">
+    <div class="container rss-inner">
+      <p>Subscribe to our RSS feed to get book picks in your favourite reader:</p>
+      <a href="weekly-book-feed.xml" class="rss-badge" target="_blank">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19.01 7.38 20 6.18 20C4.98 20 4 19.01 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44m0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93V10.1z"/></svg>
+        RSS Feed
+      </a>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <strong>Caribbean Scribbles Publishing</strong>
+        <span>Saint Kitts &amp; Nevis based · Globally read</span>
+      </div>
+      <div class="footer-links">
+        <a href="https://caribbeanscribblespublishing.com/">Main Website</a>
+        <a href="https://www.amazon.com/stores/Venetta-Smithen/author/B0CQNKXMQV" target="_blank">Amazon Author Page</a>
+        <a href="https://www.instagram.com/caribbeanscribbles/" target="_blank">Instagram</a>
+        <a href="weekly-book-feed.xml">RSS Feed</a>
+      </div>
+      <p class="footer-copy">&copy; 2026 Caribbean Scribbles Publishing. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="feed.js"></script>
+  <script src="subscribe.js"></script>
+</body>
+</html>
