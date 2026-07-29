@@ -3,37 +3,43 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Caribbean Scribbles — Book Recommendations Feed</title>
+  <title>Caribbean Scribbles — Book Recommendations Newsfeed</title>
   <meta name="description" content="Weekly Caribbean children's book recommendations from Caribbean Scribbles Publishing. Curated picks celebrating island stories, culture, and heritage." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <!-- ===== HEADER ===== -->
-  <header class="site-header">
-    <div class="header-inner">
-      <a href="https://caribbeanscribblespublishing.com/" class="logo-link">
-        <span class="logo-text">Caribbean Scribbles</span>
-        <span class="logo-sub">Publishing &amp; Digital Story Studio</span>
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="site-nav">
+    <div class="container nav-inner">
+      <a href="#home" class="nav-brand">
+        <span class="nav-brand-icon">✦</span>
+        Caribbean Scribbles <span class="nav-brand-sub">Publishing</span>
       </a>
-      <nav class="header-nav">
-        <a href="https://caribbeanscribblespublishing.com/#shop">Shop Books</a>
-        <a href="https://caribbeanscribblespublishing.com/#about">About</a>
-        <a href="#subscribe" class="btn-nav">Join Newsletter</a>
-      </nav>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#featured">Featured</a>
+        <a href="#books">Book Shelf</a>
+        <a href="#subscribe">Newsletter</a>
+        <a href="https://caribbeanscribblespublishing.com" target="_blank">Main Site ↗</a>
+      </div>
+      <button class="nav-toggle" onclick="toggleMenu()" aria-label="Menu">☰</button>
     </div>
-  </header>
+  </nav>
 
   <!-- ===== HERO ===== -->
-  <section class="hero">
+  <section id="home" class="hero">
     <div class="hero-inner">
-      <p class="hero-eyebrow">📚 Weekly Book Picks</p>
-      <h1>Caribbean Reads Your<br>Little One Will Love</h1>
-      <p class="hero-sub">Curated Caribbean children's book recommendations — delivered every Monday, Wednesday &amp; Friday.</p>
-      <a href="#subscribe" class="btn-primary">Get Free Recommendations →</a>
+      <span class="badge badge-hero">🌍 Caribbean-rooted, globally ready</span>
+      <h1>A Home for Bold Island Stories</h1>
+      <p class="hero-sub">Weekly rotating picks from our shelf of Caribbean children's books. Stories that celebrate island heritage, STEM curiosity, and the joy of reading — delivered every Monday, Wednesday, and Friday.</p>
+      <div class="hero-buttons">
+        <a href="#featured" class="btn btn-accent">✨ This Week's Pick</a>
+        <a href="#subscribe" class="btn btn-outline-light">✉ Join the Newsletter</a>
+      </div>
     </div>
     <div class="hero-wave">
       <svg viewBox="0 0 1440 80" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
@@ -43,33 +49,40 @@
   </section>
 
   <!-- ===== THIS WEEK'S PICK ===== -->
-  <section class="featured-section">
+  <section id="featured" class="featured-section">
     <div class="container">
-      <div class="section-label">⭐ This Week's Featured Pick</div>
-      <div class="featured-card" id="featured-book">
-        <!-- Populated by JS -->
+      <div class="section-header">
+        <span class="badge badge-accent">⭐ This Week's Featured Pick</span>
+        <h2 id="featuredTitle">Loading...</h2>
+        <p id="featuredRating" class="section-subtitle"></p>
+      </div>
+      <div id="featured-book" class="featured-card">
+        <div class="featured-skeleton">Loading this week's pick...</div>
       </div>
     </div>
   </section>
 
-  <!-- ===== NEWSFEED ===== -->
-  <section class="feed-section">
+  <!-- ===== BOOK GRID ===== -->
+  <section id="books" class="feed-section">
     <div class="container">
-      <h2 class="section-title">All Book Recommendations</h2>
-      <p class="section-sub">Browse our full shelf of Caribbean stories — perfect for gifting, classrooms, and bedtime.</p>
-      <div class="feed-grid" id="book-feed">
-        <!-- Populated by JS -->
+      <div class="section-header">
+        <h2>Shop Caribbean Scribbles Books</h2>
+        <p class="section-subtitle">Seven Caribbean titles for every young reader — order from Amazon or WhatsApp us directly</p>
+      </div>
+      <div id="book-feed" class="feed-grid">
+        <div class="featured-skeleton">Loading books...</div>
       </div>
     </div>
   </section>
 
   <!-- ===== NEWSLETTER SIGNUP ===== -->
-  <section class="subscribe-section" id="subscribe">
+  <section id="subscribe" class="subscribe-section">
     <div class="container">
       <div class="subscribe-card">
         <div class="subscribe-text">
-          <h2>Get Weekly Caribbean Book Picks</h2>
-          <p>Join our mailing list and receive curated Caribbean children's book recommendations straight to your inbox — plus Saint Kitts news and publishing updates.</p>
+          <div class="newsletter-icon">📖</div>
+          <h2>Get Weekly Book Recommendations</h2>
+          <p>Join our mailing list and receive curated Caribbean children's book recommendations every Monday, Wednesday, and Friday — straight to your inbox.</p>
           <ul class="subscribe-perks">
             <li>✅ Weekly rotating book pick with Amazon link</li>
             <li>✅ Saint Kitts &amp; Caribbean news digest</li>
@@ -86,17 +99,17 @@
             <input type="email" id="sub-email" name="email" placeholder="you@example.com" required />
 
             <label for="sub-role">I am a…</label>
-            <select id="sub-role" name="role">
+            <select id="sub-role" name="role" required>
               <option value="">Select one</option>
-              <option value="parent">Parent / Guardian</option>
-              <option value="teacher">Teacher / Educator</option>
-              <option value="diaspora">Caribbean Diaspora</option>
-              <option value="community">Community Member</option>
-              <option value="general">General Book Lover</option>
+              <option value="Parent">Parent / Guardian</option>
+              <option value="Teacher">Teacher / Educator</option>
+              <option value="Diaspora">Caribbean Diaspora</option>
+              <option value="Community">Community</option>
+              <option value="General">General</option>
             </select>
 
-            <button type="submit" class="btn-submit" id="submit-btn">
-              <span id="btn-label">Subscribe &amp; Get My First Pick →</span>
+            <button type="submit" class="btn btn-accent btn-full" id="submit-btn">
+              <span id="btn-label">✉ Subscribe</span>
               <span id="btn-spinner" class="spinner hidden"></span>
             </button>
 
@@ -106,7 +119,7 @@
             <div class="success-icon">🎉</div>
             <h3>You're on the list!</h3>
             <p>Check your inbox — your first Caribbean book recommendation is on its way.</p>
-            <a href="https://caribbeanscribblespublishing.com/#shop" class="btn-primary" style="margin-top:1rem;">Browse All Books →</a>
+            <a href="https://caribbeanscribblespublishing.com/#shop" class="btn btn-accent" style="margin-top:1rem;">Browse All Books →</a>
           </div>
           <div id="subscribe-error" class="subscribe-error hidden">
             <p>Something went wrong. Please try again or email us at <a href="mailto:caribbeanscribbles@gmail.com">caribbeanscribbles@gmail.com</a>.</p>
@@ -129,22 +142,41 @@
 
   <!-- ===== FOOTER ===== -->
   <footer class="site-footer">
-    <div class="container footer-inner">
-      <div class="footer-brand">
-        <strong>Caribbean Scribbles Publishing</strong>
-        <span>Saint Kitts &amp; Nevis based · Globally read</span>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">✦ Caribbean Scribbles Publishing</div>
+          <p class="footer-text">A home for bold island stories. Saint Kitts &amp; Nevis based. Hybrid &amp; indie publishing support.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <a href="#featured">This Week's Pick</a>
+          <a href="#books">Shop Books</a>
+          <a href="#subscribe">Newsletter</a>
+          <a href="weekly-book-feed.xml">RSS Feed</a>
+        </div>
+        <div>
+          <h4>Connect</h4>
+          <a href="https://caribbeanscribblespublishing.com/" target="_blank">Main Website</a>
+          <a href="https://wa.me/18696639220" target="_blank">WhatsApp Us</a>
+          <a href="https://www.amazon.com/stores/Venetta-Smithen/author/B0CQNKXMQV" target="_blank">Amazon Author Page</a>
+          <a href="https://www.instagram.com/caribbeanscribbles/" target="_blank">Instagram</a>
+        </div>
       </div>
-      <div class="footer-links">
-        <a href="https://caribbeanscribblespublishing.com/">Main Website</a>
-        <a href="https://www.amazon.com/stores/Venetta-Smithen/author/B0CQNKXMQV" target="_blank">Amazon Author Page</a>
-        <a href="https://www.instagram.com/caribbeanscribbles/" target="_blank">Instagram</a>
-        <a href="weekly-book-feed.xml">RSS Feed</a>
+      <div class="footer-bottom">
+        <p>&copy; <span id="year"></span> Caribbean Scribbles Publishing · Saint Kitts &amp; Nevis</p>
       </div>
-      <p class="footer-copy">&copy; 2026 Caribbean Scribbles Publishing. All rights reserved.</p>
     </div>
   </footer>
 
   <script src="feed.js"></script>
   <script src="subscribe.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    function toggleMenu() {
+      var links = document.getElementById('navLinks');
+      links.classList.toggle('nav-open');
+    }
+  </script>
 </body>
 </html>

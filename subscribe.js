@@ -35,8 +35,16 @@ document.addEventListener("DOMContentLoaded", function () {
     const role = form.querySelector("#sub-role").value;
 
     // Basic validation
+    if (!name) {
+      showFieldError(form.querySelector("#sub-name"), "Please enter your name.");
+      return;
+    }
     if (!email || !isValidEmail(email)) {
       showFieldError(form.querySelector("#sub-email"), "Please enter a valid email address.");
+      return;
+    }
+    if (!role) {
+      showFieldError(form.querySelector("#sub-role"), "Please select your reader type.");
       return;
     }
 
@@ -45,12 +53,11 @@ document.addEventListener("DOMContentLoaded", function () {
     clearErrors();
 
     const payload = {
-      name: name || "Friend",
+      name: name,
       email: email,
-      role: role || "General Book Lover",
+      role: role,
       source: "GitHub Pages Newsfeed",
       _subject: "New Caribbean Scribbles Newsletter Subscriber",
-      // Formspree honeypot field (leave empty to pass spam filter)
       _gotcha: ""
     };
 
@@ -65,12 +72,9 @@ document.addEventListener("DOMContentLoaded", function () {
       });
 
       if (response.ok) {
-        // Success — show confirmation
         form.classList.add("hidden");
         successMsg.classList.remove("hidden");
         errorMsg.classList.add("hidden");
-
-        // Track in localStorage to avoid duplicate submissions
         try { localStorage.setItem("csp_subscribed", "1"); } catch (_) {}
       } else {
         const data = await response.json().catch(() => ({}));
@@ -88,7 +92,7 @@ document.addEventListener("DOMContentLoaded", function () {
   try {
     if (localStorage.getItem("csp_subscribed")) {
       const note = document.createElement("p");
-      note.style.cssText = "color:rgba(255,255,255,0.7);font-size:0.85rem;margin-bottom:0.5rem;";
+      note.style.cssText = "color:var(--text-muted);font-size:0.85rem;margin-bottom:0.5rem;";
       note.textContent = "✅ You're already subscribed — check your inbox for your latest pick!";
       form.insertBefore(note, form.firstChild);
     }
@@ -108,9 +112,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function showFieldError(input, message) {
     input.classList.add("input-error");
+    input.style.borderColor = "var(--coral)";
     const err = document.createElement("span");
     err.className = "field-error";
-    err.style.cssText = "color:#ffb3b3;font-size:0.78rem;display:block;margin-top:-0.4rem;";
+    err.style.cssText = "color:var(--coral);font-size:0.78rem;display:block;margin-top:-0.4rem;";
     err.textContent = message;
     input.insertAdjacentElement("afterend", err);
     input.focus();
