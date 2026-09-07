@@ -1,0 +1,1060 @@
+It Starts at Home:
+Home Language and Literacy Practices in Jamaica
+
+Shawna-Kaye D. Tucker		                   Victoria A. Murphy, Hamish Chalmers
+University of Toronto			                  University of Oxford
+
+
+Abstract
+This study explores the nature of home language and literacy environments (HLLEs) among primary
+school learners in Jamaica, contributing to the limited body of Caribbean-based research in this area.
+Grounded in ecological systems theory, the study considers how multiple contextual factors in the
+home interact to shape children’s literacy development. Data were collected from 114 caregivers who
+completed an HLLE questionnaire. Findings indicate generally low levels of print engagement and limited
+participation in formal literacy activities (practices known to support reading and writing), with many
+caregivers placing greater responsibility on teachers. Jamaican Creole was more frequently used in
+many homes than English, potentially influencing children’s transition from conversational fluency
+to academic language proficiency in school. At the same time, community religious programs also
+emerged as important spaces for supplemental literacy engagement. The study underscores the need
+for culturally responsive approaches and tools in literacy research that reflect the broader sociocultural
+realities shaping language and literacy development in the Caribbean.
+
+Keywords: home literacy, community literacy, literacy development, Caribbean, writing
+
+
+
+
+Introduction                                             2023). As research has confirmed the key role
+                                                         of home literacy environments in improving child
+    In 2021, the Jamaica Education Transformation        literacy outcomes, researchers and policymakers
+Commission published its report, “The Reform of          alike have acknowledged the need to enlist
+Education”, which stated that 56% of students            caregivers and local communities in addressing
+leave primary school being unable to write.              this ”literacy crisis” in low- to middle-income
+This report was followed by the Programme for            contexts (Friedlander & Goldenberg, 2023;
+International Student Assessment (PISA) 2022             Murphy, 2023; Nag et al., 2019). Indeed, in
+outcomes, showing 50% of Jamaican students               October 2023, the Jamaican Ministry of Education
+scoring below the minimum level of proficiency           in partnership with the Jamaican National
+in reading. These results are consistent with the        Parenting     Support    Commission    identified
+wider Caribbean region, where 55% of students            parental involvement as one of the pillars of a
+are considered to lack basic reading skills (Inter-      new comprehensive strategy aimed at addressing
+American Development Bank, 2023; World Bank,             poor student outcomes across the educational
+                                                         sector (Jamaica Information Service, 2023).
+
+
+Submitted 16 August 2024                                    Caribbean Journal of Education and Development,
+Accepted 5 May 2025                                         Vol. 1 No. 2 2024
+Electronically published 26 August 2025                     All rights reserved.
+                                                            © 2025 by the School of Education,
+https://doi.org/10.46425/cjed701021215                      The University of the West Indies, Mona • ISSN 0799-6977
+154                                                                                            Tucker et al.
+
+
+
+
+     Beyond the classroom, home literacy               Esmaeeli, 2023; Nag et al., 2019; Puglisi et al.,
+environments are known to be significant               2017; Sénéchal & LeFevre, 2002). Sénéchal et al.
+predictors of language and literacy outcomes           (1998) classified home literacy experiences into
+for children (Butler & Le, 2018; Sénéchal &            two categories: informal and formal. Informal
+LeFevre, 2002). However, as observed in a              home literacy activities most commonly include
+recent systematic review by Stone et al. (2020)        shared book reading, with a primary focus on
+exploring “what works” for literacy development        meaning rather than on the “code” or print itself.
+in the Caribbean and Latin America, only one           Research has confirmed significant associations
+Caribbean intervention study was identified that       between storybook reading and the development
+investigated the role of home literacy practices,      of foundational oral language skills such as
+despite the reality that so many learners in the       vocabulary and comprehension (Aram & Levin,
+region continue to struggle with the development       2004; Flack et al., 2018; Sénéchal & LeFevre,
+of literacy skills. Therefore, little is known about   2002, 2014).
+home literacy practices in the Caribbean context           In contrast, formal home literacy activities
+and their role in literacy development. More work      include direct parent tutoring with an explicit
+is needed to understand the impact of cultural and     focus on print (e.g., letter-sound correspondence)
+contextual factors that characterize the region        (Puranik et al., 2018; Sénéchal & LeFevre, 2002).
+and shape home literacy practices, such as the         Research has confirmed that these practices
+more communal nature of many societies relative        have positive effects on the development of more
+to the Global North and the unique linguistic          code-based literacy skills such as writing (Aram
+landscape of the Caribbean region where oral           & Levin, 2004, 2001; Dunsmuir & Blatchford,
+Creole languages which share somewhat blurred          2004; Puglisi et al., 2017; Sénéchal et al.,
+boundaries with the languages of literacy are          1998; Sénéchal & LeFevre, 2014). In addition
+spoken. Such work could clarify the wider literacy     to these classifications of formal and informal
+ecology of children in the Caribbean and provide       home literacy environments, Puglisi et al. (2017)
+insights into the literacy outcomes of learners in     noted that home literacy experiences can also
+the primary years. It could also help clarify the      be classified as indirect or passive, and that
+challenges parents may experience in supporting        parent-related factors (including attitudes and
+their children’s literacy in the home and identify     beliefs concerning literacy, as well as personal
+existing contextual traditions and practices           engagement in literacy activities) also influence
+that may be harnessed to support literacy              the nature of the home literacy environment,
+development. Accordingly, this exploratory study       and ultimately child literacy outcomes (Phillips
+aims to investigate the nature of home language        & Lonigan, 2009; Wells, 1987). The limited
+and literacy practices experienced by Jamaican         research from low- to middle-income contexts
+primary school learners by highlighting the            suggests that beyond formal and informal
+literacy trends and practices that characterize        home literacy practices, context-specific factors
+local home environments.                               including parental literacy and proficiency in the
+                                                       language of schooling (Nag et al., 2019); the skill
+                                                       of the family tutor (Aram & Levin, 2001, 2004;
+Literature Review
+                                                       Nag et al., 2019); cultural practices (such as
+     Home literacy environments include practices      oral traditions) (Buvaneswari & Padakannaya,
+and beliefs within the home that are predictive        2017); and socioeconomic factors such as access
+of literacy outcomes. Parental involvement in          to running water and educational resources
+literacy activities, literary materials in the home,   (Ngorosho, 2011; Roopnarine & Dede Yildirim,
+and adult beliefs and attitudes about literacy         2018; Wells, 1987), all affect the efficacy of
+are all known to have significant effects on           home literacy activities.
+child literacy development (Butler & Le, 2018;
+It Starts at Home                                                                                       155
+
+
+
+    While findings and models from the Global          limited opportunities and invitations for parent-
+North are informative, and parallels exist             teacher      communication       further    constrain
+across many regions in the Global South,               engagement (Johnson & Carpenter, 2006).
+distinct variables and cultural structures within      Despite these constraints, research has shown
+the Caribbean highlight the need for more              that students believe that parental involvement is
+contextualized investigations. For instance, the       important for improving their reading outcomes
+Caribbean’s unique linguistic landscape presents       (Lewis-Smikle, 2003).
+challenges and opportunities for home literacy              In a longitudinal study, Cole (2022) considered
+development. Additionally, the prominent role of       the impact of early parental involvement on the
+religious institutions and intergenerational family    reading outcomes of 116 Jamaican learners in
+structures further differentiate the region. Single-   Grades 1, 4, and 6. The findings showed that
+parent households are especially prevalent, often      relative to parents’ reports of involvement
+with fathers absent (Roopnarine & Dede Yildirim,       and invitations for participation, only teachers’
+2018), and many children are raised by extended        reports of parents’ efficacy in helping children
+family members, particularly grandparents              had a direct relationship with learner outcomes
+(Ricketts & Anderson, 2009; Samms-Vaughan,             across grade levels — a finding consistent
+2001). These family dynamics have implications         with reports from other low- to middle-income
+for both financial stability and the availability of   countries where the skill of the family tutor has
+time and support for home literacy engagement.         been found to moderate the effects of parental
+Despite these distinct sociocultural and linguistic    involvement in child achievement (see Nag et
+realities, the Caribbean has frequently and            al., 2019 for a research synthesis). While the
+ineffectively been grouped with Latin America          study drew on the Hoover-Dempsey and Sandler
+in educational research, potentially obscuring         (1997) model of parental involvement, less is
+important contextual differences (Tucker et al.,       known about the specific nature of items used
+2025).                                                 to measure parental involvement in the study.
+                                                       Providing greater clarity on the nature of these
+Home Language & Literacy                               items, particularly in relation to domain-specific
+Environments in the Caribbean                          home literacy practices, may help explain the
+                                                       limited predictive relationship observed between
+    In the Caribbean, research on the role of the
+                                                       parental involvement and reading outcomes.
+home in education has primarily centered on the
+                                                       As such, greater research is needed that offers
+concept of parental involvement — an umbrella
+                                                       insight into the nature of home language and
+term encompassing a range of parental activities
+                                                       literacy practices. Such work can provide critical
+in both the home and school (Hoover-Dempsey &
+                                                       insights for educators and policymakers seeking
+Sandler, 1997), rather than focusing specifically
+                                                       to address persistent literacy challenges in
+on home language and literacy practices. Overall,
+                                                       Jamaica and the wider Caribbean.
+parental involvement in children’s education is
+                                                            In one of the few studies directly exploring
+often described as suboptimal across the region
+                                                       home literacy practices in the Caribbean,
+(Brooks & Roofe, 2022). Studies examining
+                                                       Roopnarine and Dede Yildirim (2018) used
+parental involvement have identified several
+                                                       secondary categorical data from the UNICEF
+influencing factors, including parents’ financial
+                                                       Multiple Indicator Cluster Survey (MICS), to
+and employment status (Campbell & Kinkead-
+                                                       explore the relationship between parent-child
+Clarke, 2022; Cook & Jennings, 2016); levels
+                                                       play, book reading, storytelling, and emergent
+of education (Samms-Vaughan, 2008); and
+                                                       literacy development in five Caribbean islands –
+perceived efficacy or competence in supporting
+                                                       Belize, Dominican Republic, Guyana, Suriname,
+their children’s education (Cole, 2021, 2022).
+                                                       and Jamaica. Child literacy outcomes were based
+Additionally, school-related barriers, such as
+156                                                                                                Tucker et al.
+
+
+
+
+on maternal reports (yes/no responses) of their            of home literacy practices across homes in the
+child’s ability in early literacy skills (e.g., identify   Caribbean was possibly moderated by parents’
+10 letters). Results showed inconsistencies in             levels of English proficiency and literacy. There
+parental literacy practices across Caribbean               therefore remains a need for more primary
+islands with both mothers and fathers in Belize            research focusing on home literacy environments
+being more likely to read to their children, and           in the Caribbean.
+mothers in Jamaica being more likely to tell stories           In a recent systematic review on parental
+to their children. Parental engagement in literacy         involvement and family engagement in Jamaica,
+activities in the other islands was comparatively          Lewis-Fokum and Morgan (2022) highlight this
+low. In terms of the relationship between literacy         gap, calling for deeper investigation into the
+practices in the home and early literacy skills in         specific forms of family engagement that support
+children, mothers’ book reading in the Dominican           educational achievement. Such research is critical
+Republic and storytelling in Jamaica were                  for developing a more nuanced understanding of
+significant predictors of letter identification skills.    how home-based practices contribute to literacy
+Similarly, mothers’ book reading in the Dominican          development in the Caribbean. The present
+Republic and storytelling in Jamaica and Guyana            study aims to contribute to filling the gap in this
+were significant predictors of word reading. The           area of research by exploring the nature of home
+researchers pointed out that while the effects             language and literacy environments of Jamaican
+of home literacy practices on student outcomes             primary school learners.
+were mixed across countries, SES-related factors
+such as household wealth (e.g., access to drinking
+water, house materials, toilet facilities), as well
+                                                           Research Question
+as the number of educational books in the home                1. What is the nature of home language and
+and preschool involvement often moderated the                    literacy environments experienced by
+effects of home literacy practices.                              Jamaican primary school children?
+    While insightful and seminal, given the
+research design of this study, there are still some
+gaps in our understanding of the nature and                Theoretical Framework
+impact of home literacy environments on literacy
+                                                               This study is grounded in the ecological
+development in the Caribbean. As the study
+                                                           systems approach to literacy development
+relied on secondary categorical information, no
+                                                           (Bronfenbrenner, 1979). This approach draws
+information is provided on the nature or the
+                                                           from the socio-cultural research tradition to
+quality of parental engagement in home literacy
+                                                           consider the dynamic and interdependent
+activities – factors which likely impact the efficacy
+                                                           relationships between individuals and wider
+of these practices for child literacy development.
+                                                           societal systems; and how all of these affect
+Additionally, and of key importance, is the
+                                                           individual     development,      behaviour,    and
+absence of home language information in the
+                                                           perceptions (Bronfenbrenner, 1979; Nero &
+study – a likely confounding variable which may
+                                                           Stevens, 2018). Within this framework, the
+be linked to inconsistencies in findings concerning
+                                                           child is situated at the center of a set of nested
+the role of home literacy environments across
+                                                           systems that influence development directly
+Caribbean islands. Given that Creole languages
+                                                           and indirectly. The microsystem encompasses
+are spoken in all the included countries and
+                                                           the most immediate settings in which the child
+considering findings from low- to middle-income
+                                                           actively participates, such as the home, school,
+contexts showing that home language factors
+                                                           peer groups, and faith-based institutions like
+such as parents’ proficiency and literacy in the
+                                                           churches or Sunday schools. These environments
+language of schooling can influence the efficacy
+                                                           directly affect the child’s daily experiences and
+of parent tutoring (Nag et al., 2019), the efficacy
+It Starts at Home                                                                                   157
+
+
+
+learning opportunities. The mesosystem refers to      approach adopted in this study views literacy
+the interactions and relationships among these        development as being shaped by a range of
+microsystems (such as the connections between         nested influences, including individual learner
+home and school) which can either reinforce or        characteristics, instructional factors within
+undermine a child’s developmental trajectory.         schools, and sociocultural practices within homes
+     Beyond these more immediate environments         and communities. This theoretical orientation
+are the exosystem and the macrosystem. The            provides a valuable lens through which to explore
+exosystem includes settings that the child does       the multifaceted and context-dependent nature
+not directly engage with, but that still exert        of home language and literacy environments in
+influence on their development. These might           Jamaica.
+include factors such as a parent’s workplace,
+financial constraints, parental education levels,
+                                                      Methodology
+and access to community services. For example,
+a parent’s long work hours may limit their                 The data for this study is drawn from a
+capacity to support home literacy practices, even     larger sequential mixed-methods study that
+though the child is not directly involved in that     explored the nature of writing challenges
+setting. Finally, the macrosystem encompasses         experienced by Jamaican primary school
+the broader cultural, ideological, economic, and      learners and the ecological factors impacting
+political contexts that shape all other systems.      literacy development (Tucker, 2023). Findings
+This includes societal beliefs about literacy and     from the larger study showed concerningly low
+education, language ideologies (such as the           performance in narrative writing at the Grade 6
+relative status of Jamaican Creole and English),      level (the mean score was 53%), with students
+national education policies, and socioeconomic        experiencing significant challenges across the
+structures related to class and race (Jaeger,         component skills of writing with well over half
+2016). Although children are not active agents        the sample receiving ratings at the lower end of
+of this system, the macrosystem powerfully            the analytic rubric in spelling (66%), grammar
+shapes their opportunities for language and           (76%), vocabulary (59%), organization (86%),
+literacy development.                                 and ideation (78%). Adopting a survey design,
+     Of particular theoretical relevance to this      the present study focuses on data concerning the
+study, and connected to an ecological approach        home literacy environments of these students.
+to literacy, is Cummins’ (1979, 2017) distinction
+between Basic Interpersonal Communicative             Sample
+Skills (BICS) and Cognitive Academic Language
+                                                          The sample consisted of 114 parents and
+Proficiency (CALP). While BICS refers to
+                                                      caregivers of students from two primary schools
+conversational fluency used in everyday
+                                                      in a rural Jamaican town who opted-in to
+settings, CALP involves the more abstract,
+                                                      complete the questionnaire. All participants were
+decontextualized language skills required for
+                                                      recruited on the basis of being either the parents
+academic tasks such as reading comprehension
+                                                      or the main caregiver for students in Grade 6
+and writing. This distinction is especially salient
+                                                      who participated in the larger study.
+in the Jamaican context, where many children
+may develop strong BICS in Jamaican Creole at         The Study Context
+home, yet be expected to demonstrate CALP in
+                                                         All parents and guardians were residents of
+English at school.
+                                                      a rural town near the north coast of Jamaica.
+     As Syverson (1999) argues, literacy cannot
+                                                      The centre of commerce in the bustling rural
+be fully understood by examining individuals in
+                                                      town is the popular local market that attracts
+isolation. Building on this insight, the ecological
+                                                      farmers, vendors, and shoppers from across the
+158                                                                                                                Tucker et al.
+
+
+
+
+island particularly on ”Market Days”. The town’s      raised by grandparents or other relatives. Given
+proximity to the North Coast (the tourism hub         the unique linguistic context of Jamaica where
+of the island) and its status as an agricultural      language usage is generally conceptualized along
+and educational centre in the parish means that       a continuum — with the pure usage of Jamaican
+in addition to farming and vending, residents         Creole and English at either end, and various
+generally work as teachers and in the service         levels of mixing in-between (DeCamp, 1971), a
+industry as hotel staff domestic workers, taxi        5-step Likert scale was used wherein responses
+drivers, and as civil servants. Given the nature of   indicating more dominant use of Jamaican Creole
+these jobs, most residents generally have a low       were given lower scores and responses indicating
+to modest income. Regarding access to pertinent       more dominant use of English in the home were
+resources, many homes still do not have running       given higher scores1.
+water. However, residents are generally able
+to access water tanks or ”stand-pipes” in the         Section 2:
+community. The main universities on the island        Home Literacy Environment
+are located in the nation’s capital city, therefore       The home literacy section of the questionnaire
+students who are able pursue higher education         addressed literacy practices in the home; the
+must move away from the area and tend to              nature of parent-child interactions during literacy
+remain in the city after completing their degrees     activities; and parents’ beliefs concerning literacy
+for greater job opportunities and the possibility     development and instruction. The instrument was
+of upward social mobility. The town therefore         adapted from the Buvaneswari and Padakannaya
+has a flatter socioeconomic spread compared           (2017) home literacy environment questionnaire
+to more metropolitan areas of the island, with        for kindergarteners in India, with Tamil as a
+wider variation in income, education levels, and      home language. Buvaneswari and Padakannaya’s
+household resources.                                  tool was found to be particularly suitable for this
+                                                      study due to significant contextual parallels: the
+Home Language and Literacy                            tool was specifically created for a lower income
+Environment Questionnaire                             context and for children whose home language
+                                                      differed from English (the language of schooling).
+    The questionnaire for parents and caregivers
+                                                      The questions in the instrument address the five
+was divided into two sections – with Part 1
+                                                      dimensions of a home literacy environment outlined
+soliciting information about language usage in
+                                                      in the literature: “physical literacy environment,
+the home and participant demographics, and
+                                                      parent literacy habits, child’s own literacy habits,
+Part 2 soliciting information on home literacy
+                                                      parent-child interaction for language and literacy
+practices and beliefs. The instrument was shared
+                                                      activities, and parental beliefs about literacy”
+with parents online via the Qualtrics platform.
+                                                      (Buvaneswari & Padakannaya, 2017, pp. 6–7).
+Section 1:                                            The instrument was adapted to suit the Jamaican
+Home Language Environment                             context (e.g., questions were added regarding
+                                                      Sunday School attendance, reading the local
+    In addition to demographic information (e.g.,     newspapers, and specific writing activities) but
+highest level of education), the questionnaire        also reduced (e.g., culturally irrelevant items
+explored learners’ language input from parents        removed) to suit the online platform and to
+(or main caregivers), adult relatives, siblings,      encourage survey completion.
+and playmates. This wide scope proved                     A Likert scale format was used for responses
+particularly relevant for the Jamaican context,       in the HLE questionnaire, with parents and
+given that in many cases multiple generations         caregivers indicating the frequency with which
+live together in homes and children are often
+
+                                                      1. The assignment of numerical scores was not value laden.
+It Starts at Home                                                                                  159
+
+
+
+they engaged in or observed particular literacy      reasons: 1. Since the findings are based on
+activities or behaviours in their home, and their    self-reporting within a context where the use of
+beliefs about literacy. Each scale step was rated    English is generally associated with higher social
+1-5, with responses indicating disagreement          status (Nero & Stevens, 2018), it is possible
+or low frequency receiving lower scores and          that responses concerning the use of English
+responses indicating frequency and greater           are inflated. 2. As Nero (2014) points out, owing
+agreement receiving higher scores. Once the          to the creole continuum, there is a mismatch
+survey was completed, a total score was calculated   between perceived and actual language
+for HLE with higher scores indicating a richer or    proficiency and usage for many Jamaicans. As a
+more supportive home literacy environment.           result, many Jamaicans deem themselves fluent
+Once consent was obtained, classroom teachers        speakers of English and at times believe that they
+shared the link to the survey with parents.          are speaking English when this may not be the
+                                                     case. Similar concerns arise in parent responses
+                                                     to questions concerning home literacy practices.
+Findings
+                                                     Home Literacy Environments
+Home Language Environments
+                                                          In total, 86 parents completed the home
+    The first section of the questionnaire which     literacy environment portion of the online survey.
+solicited information on language usage in the       Higher scores represented richer home literacy
+home as well as participant demographics was         environments. The mean score was 79.39 out of
+completed by 114 parents. As seen in Table 1,        a possible score of 110 and scores ranged from
+all family members more commonly reported            43–106, with most scores clustering near the
+using equal amounts of Jamaican Creole and           centre of the distribution as seen in Figure 1.
+English when speaking to children in the home.
+Consistent with the creole continuum, few
+                                                     Figure 1
+speakers reported the exclusive use of Jamaican
+Creole or English. While both mothers and            Frequency Distribution of Home Literacy
+                                                     Environment Scores
+fathers showed relatively similar language usage
+patterns, fathers generally used more Jamaican
+Creole than mothers when speaking to their
+children. Siblings tended to use equal amounts of
+Jamaican Creole and English, but also appeared
+to speak more English than adult caregivers.
+Among homes where another adult (most often
+a grandparent) served as a main caregiver (60%
+of the sample), caregivers reported using more
+Jamaican Creole than English in their interactions
+with children. In these cases, only 20% indicated
+that English was the primary language used when
+speaking to the child. These findings suggest
+that over half of the children in the sample are
+more frequently exposed to Jamaican Creole
+than English in their home environments.
+    While these findings likely give a general
+approximation of child language input in the
+home, a note of caution is given here for a few
+160                                                                                               Tucker et al.
+
+
+
+
+Table 1
+Language Input at Home
+
+                                                       Equal
+                                         JamC          amounts        English        Always
+    Language Input      Always JamC  1
+                                         usually       of JamC        usually        English
+                                                       & English
+    Mother              0.84%            18.49%        57.98%         22.69%         0.00%
+    Father              6.93%            21.78%        45.54%         23.76%         1.98%
+    Other adult
+                        8.57%            28.57%        40.00%         20.00%         2.86%
+    caregiver
+    Siblings2           5.38%            17.58%        42.98%         27.76%         6.31%
+
+1
+    JamC — Jamaican Creole
+2
+ Siblings — in cases where more than one sibling was present in the home, the average of language
+used by all siblings was used.
+
+Reliability                                              playing word games, reading the local newspaper).
+                                                         However, based on personal and insider knowledge
+     The home literacy questionnaire consisted           of the central role played by Sunday School
+of three subscales from the Buvaneswari and              in Jamaican communities and the significant
+Padakannaya (2017) home literacy environment             emphasis placed on literacy skills by many Sunday
+questionnaire: parent literacy habits, parent            school teachers, as well as the fact that the alpha
+tutoring and engagement in literacy activities, and      coefficient was not considerably lower than 0.7, the
+parental beliefs concerning literacy. Buvaneswari        item was retained.
+and Padakannaya (2017) reported high item-                    In subsequent sections, the findings concerning
+level and overall scale validity; however, as items      the key dimensions of home literacy practices and
+were adapted to suit the Jamaican context, it was        emerging trends are discussed. At the end of the
+important to explore the internal consistency of         questionnaire, parents were invited to share any
+the measure. Cronbach’s alpha calculations were          additional thoughts and concerns. These responses
+conducted for the three subscales in the home            were also weaved into the findings to provide
+literacy environment questionnaire. In keeping           a thicker description of the home language and
+with Field’s (2013) guideline that alpha values of       literacy environments and to add explanatory
+0.7 and above indicate good reliability, findings        power to some of the observed trends in the data.
+showed that the parent tutoring and parental
+beliefs subscales yielded high alpha coefficients of     Parental Levels of Education
+0.8 and 0.9, respectively, while the home literacy           As seen in Figure 2, the most common
+practices scale yielded a lower alpha coefficient of     qualification acquired by parents was a skill
+0.6. A similar trend was observed by Buvaneswari         or trade certification (e.g., hairdressing, auto
+and Padakannaya (2017), where parent’s literacy          mechanics, chef). Following skill or trade
+practices showed wide variation. In addition             certificates, primary school and bachelor’s
+to wide variation of parent literacy practices,          degrees were also common levels of education for
+the relatively lower alpha coefficient for the           mothers, while secondary school (and to a lesser
+literacy practices subscale was due in part to the       extent, diplomas) were held by fathers. For both
+addition of a contextual item concerning Sunday          groups, postgraduate degrees were uncommon.
+School attendance. As expected, child Sunday             Of note, almost 40% of mothers in the sample
+School attendance (a religious practice) was not         had either primary or secondary schooling as
+correlated with other parent literacy practices that     their highest level of education — a pattern that
+were included in the home literacy subscale (e.g.,       was not observed among fathers.
+It Starts at Home                                                                                    161
+
+
+
+Figure 2
+Parent’s Highest Level of Education
+
+
+
+
+Parents’ Personal Literacy Habits                      labels, street signs, and signboards, were the
+    Parents’ personal literacy habits have been        most common activities that parents reported
+conceptualized as passive or indirect components       engaging in with their children. The least
+of home literacy environments (Puglisi et al.,         practiced literacy activities were those more
+2017) that are correlated with child literacy          oriented towards formal or direct parent tutoring
+outcomes (Phillips & Lonigan, 2009; Wells,             — such as engaging in extended or creative
+1987). Parents most commonly reported writing          writing activities with children (e.g., writing
+or typing (61%), playing word games (41%),             stories, songs, poems) and shared book reading
+or reading non-work-related materials such as          that involved pointing to letters and words as
+books (36%) either often or very often, while          well as making explicit letter-sound connections.
+being observed by their children. However, as          Parents Beliefs about Literacy
+the questionnaire did not specify the nature or
+medium of writing, it is somewhat unclear how               In the current study, while most respondents
+parents’ home writing practices might impact           (over 75%) strongly agreed that parents could
+student literacy outcomes in the present study.        help their children with literacy tasks at home
+For example, it is not clear whether parents           and should encourage interest and confidence in
+were referring to texting, engaging in extended        reading and writing, parents were less supportive
+writing (e.g., narratives), writing notes, or lists,   of statements that put the instructional onus on
+nor is it clear whether some forms of writing,         themselves through the direct teaching of literacy
+such as texting for example, may impact child          skills at home (e.g., “children do well at reading
+writing outcomes.                                      because their parents teach them to read”;
+                                                       (62% strongly agree). Consistent with such
+Parents Engagement in Literacy Activities              findings, parents provided comments underlining
+at Home
+                                                       their beliefs concerning the central role of the
+   Helping with language arts homework and             teacher as the primary source of instruction
+functional activities such as reading product          and the secondary role of parents in providing
+                                                       encouragement and reinforcement:
+162                                                                                          Tucker et al.
+
+
+
+
+      Howard: Teachers are there to teach,           had low levels of English literacy. This issue is
+      whilst parents are to reinforce what was       especially pointed in the study context, where
+      taught.
+                                                     a considerable number of mothers reported
+      Lisa: Parents should always ensure that        primary school as their highest level of education,
+      their children are doing well in school        and where numerous children, particularly those
+      and check their books to see if they have      with elderly caregivers, received a greater
+      completed their homework.
+                                                     amount of input in Jamaican Creole relative to
+      Marie: I often tell my child to reflex         English — the language of literacy. For many
+      [reflect] on how her day went at school        such parents, the role of the teacher in their
+      and analyse if she was comfortable and if      child’s literacy development was paramount
+      not try and do better the naxt [next] day.
+                                                     due to their limitations in providing additional
+     Parents’ beliefs concerning their role in       support at home, with one parent commenting
+literacy development may be grounded, at least       that their child was simply “better off in front of
+in part, in their own challenges with providing      the teacher.”
+facilitative home literacy environments.
+                                                     Community Literacy Practice
+Barriers to Facilitative Home Literacy
+                                                         Jamaica is known for having the most
+Environments                                         churches per square mile in the world (Lowe,
+    Most comments provided by parents                2021; Olsen, 1999) and the relatively small town
+addressed the challenges that they experienced       in which this study is situated is no exception,
+in providing a facilitative literacy environment.    with over 20 churches in the area. In response to
+Among these responses, the difficulty of balancing   this contextual feature and research highlighting
+the demands of providing for their families and      the importance of using context-sensitive
+providing a supportive literacy environment          measures of home literacy environments (Nag
+was the most common concern, as seen in the          et al., 2019; Ngorosho, 2011), a questionnaire
+excerpts below:                                      item addressing Sunday (or Sabbath) School
+      Paul: I am a security guard so am always       attendance was added to the instrument, given
+      working to make ends meet, I hardly find       its central role in the lives of many Jamaican
+      time to teach my children but when I do,       children and the research showing the benefits
+      I teach them different topics and leave
+      work for them which they don’t complete        of religious literacy activities for child literacy
+      most times.                                    development (Papen, 2018). In the present
+                                                     study, Sunday School emerged as one of the
+      Anne: I strongly agree in helping my           most common literacy practices outside of the
+      child, yes am a single parent an [and] I
+      have to go out there an fen [and fend]         classroom. Only 15% of parents reported that
+      for them. When I come home there a lot         their child did not attend Sunday School, while the
+      of shore [chores] to be done an [and] I        rest of the sample reported attending sometimes
+      help them but the 100% what I should be
+      doing is not there but I encourage her to      (42%) or every week (43%).
+      do her best an help in whatever way I can.
+
+     Parents consistently acknowledged the           Discussion
+importance of fostering facilitative home
+literacy environments for their children despite     The Nature of Home Language and
+their limitations. In addition to the demands of     Literacy Environments
+supporting the family, some parents commented
+on the difficulties of providing facilitative home      Overall, the study findings suggest low levels
+literacy environments when they themselves           of print engagement in the home, with both
+struggled to understand school assignments and       formal code-based activities such as writing
+It Starts at Home                                                                                      163
+
+
+
+and informal meaning-focused activities such          Home Language Practices
+as shared storybook reading being relatively
+uncommon. Instead, literacy practices were                Findings related to home language use
+often functional in nature, such as reading           highlight the need for context-sensitive measures
+signs, labels, or instructions—activities that may    of language and literacy practices. In the
+support the development of Basic Interpersonal        Caribbean, research has shown that in addition
+Communicative Skills (BICS), but offer limited        to a high prevalence of single-parent households,
+opportunities for fostering the more abstract,        many children are raised by older caregivers
+academic language skills encompassed by               — particularly grandparents (Lewis-Fokum &
+Cognitive Academic Language Proficiency (CALP).       Morgan, 2022; Samms-Vaughan, 2001). At first
+Relatedly, in terms of beliefs about literacy,        glance, the data suggest relatively balanced
+parent responses suggested a greater onus on          exposure to Jamaican Creole and Standard
+teachers, particularly for print-focused literacy     Jamaican English (the language of instruction)
+activities. Findings showing less facilitative home   with 58% of parents reporting equal use of both
+language and literacy environments may add            languages in parent–child interactions. However,
+an explanatory piece to the larger ecological         a more nuanced examination reveals that 60%
+puzzle of the poor writing outcomes observed          of the children in the sample were raised by older
+among primary school learners from the larger         caregivers in the home, primarily grandparents,
+study, and by extension, across the island (see       who reported using Jamaican Creole more
+Jamaica Education Transformation Commission,          frequently than English when communicating
+2021). Indeed, research has consistently shown        with children. As such, most children represented
+that formal home literacy practices are more          in the sample are exposed to and primarily speak
+strongly correlated with, and predictive of, the      Creole in the home.
+development of code-based literacy skills such as         While this is not inherently problematic,
+writing (Aram & Levin, 2004, 2001; Puglisi et al.,    and research in second language acquisition
+2017).                                                underscores the value of home language
+    The findings of this study echo those reported    maintenance in supporting additional language
+in other low- to middle-income contexts in the        learning, Jamaica currectly lacks a ratified
+Global South, where home language and literacy        language education policy. Although a draft
+environments are influenced by a confluence of        policy was developed in 2001 and has now
+factors including parental levels of education,       been updated (MoEY, 2022), it has not yet
+proficiency in the language of literacy, and          been formally approved. In practice, Jamaican
+economic constraints (Friedlander & Goldenberg,       Creole is largely excluded from Language Arts
+2023; Nag et al., 2019). More specifically, the       classrooms, reflecting broader societal attitudes
+findings align with previous Caribbean research       toward language. This creates a significant
+pointing to the moderating role of parental           mismatch between the languages of the home
+socioeconomic status and parental self-efficacy       and school, particularly in environments where
+in supporting children’s learning (e.g., Cole,        caregivers have limited English proficiency or
+2021, 2022). The findings also underscore the         formal literacy skills. Indeed, in the present study,
+value of using an ecological systems framework        some parents and caregivers noted challenges
+to interpret child literacy development in the        in helping their children with homework due to
+Caribbean, which emphasizes the nested and            their own limited proficiency in English. In such
+interacting environments that shape child             contexts, caregivers may avoid engaging in
+development.                                          print-rich literacy activities to prevent feelings of
+                                                      inadequacy or shame.
+164                                                                                               Tucker et al.
+
+
+
+
+     Cases where caregivers frequently engage          in less facilitative home literacy environments, it
+in oral interactions in Jamaican Creole and to a       is possible, in line with wider research, that many
+lesser extent, English, may primarily support the      mothers within this context (particularly those
+development of BICS. However, less frequent            with primary school level education) may feel
+engagement in literacy practices that foster CALP      less efficacious in supporting the language and
+— such as shared reading in English, writing           literacy development of children. Such a finding
+activities, or explicit vocabulary development,        lends support to research from Cole (2022)
+could help explain persistent challenges in            wherein teachers’ reports of parental efficacy to
+academic literacy performance. This mismatch           help children was one of the strongest predictors
+between the language of the home and the               of reading outcomes of Jamaican learners across
+cognitive-linguistic demands of the school             the primary school years.
+environment may further compound difficulties,              Beyond          educational        background,
+particularly for children raised by caregivers with    socioeconomic constraints also shaped the
+limited proficiency in English. In the larger study    nature of home literacy environments in this
+(Tucker, 2023), children who spoke Jamaican            study. Echoing findings from the wider Caribbean
+Creole as their dominant home language scored          (Campbell & Kinkead-Clarke, 2022; Cook &
+significantly lower in narrative writing compared      Jennings, 2016; Roopnarine & Dede Yildirim,
+to their English-dominant peers. These children        2018), parents reported significant challenges in
+demonstrated marked challenges in oral language        balancing the demands of working to “make ends
+skills, particularly in grammar and vocabulary         meet”, managing their homes, and being present
+diversity — areas that are closely associated with     to support the language and literacy development
+both code- and meaning-based activities such as        of their children. Given these circumstances, it
+writing and shared storybook reading (Sénéchal         is unsurprising that parents were generally less
+& LeFevre, 2014).                                      likely to endorse questionnaire items that placed
+                                                       greater onus on themselves in supporting the
+Sociodemographic Factors                               literacy development of their children. However,
+    Research from low- to middle-income contexts       it is important to recognize that socioeconomic
+has consistently identified parental socioeconomic     disadvantage does not uniformly result in poor
+status (SES) and levels of education as strong         literacy outcomes. Evidence from a synthesis of
+predictors of both the richness of home literacy       studies in low- to middle-income countries (Nag
+environments and children’s academic outcomes          et al., 2019) suggests that some families and
+(Nag et al., 2019; Roopnarine & Dede Yildirim,         communities manage to make efficient use of
+2018). In particular, maternal education has been      limited resources, supported by positive attitudes
+widely used as a proxy for SES (Hoff, 2006) and        toward literacy. This is particularly relevant to the
+is positively associated with literacy practices and   present study, where community-based literacy
+outcomes in both the Global North (Dunsmuir &          experiences such as Sunday Schools appear to
+Blatchford, 2004; Tizard et al., 1988) and the         play a notable role in the literary lives of children.
+Caribbean (Roopnarine & Dede Yildirim, 2018).
+In the present study, 40% of mothers reported          Opportunities for Literacy Enrichment
+primary or secondary school as their highest level     in the Community
+of education — a finding that may help explain, at         While the findings point to generally
+least in part, the lower levels of print engagement    less facilitative home language and literacy
+and more formal literacy activities observed in        environments, they also underscore opportunities
+many homes. While it is not assumed that lower         for literacy development beyond both the
+levels of parental education automatically result      classroom and the immediate home. Consistent
+It Starts at Home                                                                                        165
+
+
+
+with research highlighting the influential role of       — all of which jointly shaped children’s language
+the broader community in child development in            and literacy experiences.
+low- to middle-income contexts (Friedlander &                 In line with Bronfenbrenner’s ecological
+Goldenberg, 2023), study findings showed that            framework, the findings point to the potential
+85% of children attended a local Sunday School           influence of multiple microsystems on literacy
+— making it the most common literacy-related             development, particularly the home and faith-
+event outside of school.                                 based community programs. While caregivers in
+     Friedlander and Goldenberg (2023), in their         this study appeared to provide less facilitative
+work with children in Rwanda, advocated for the          language and literacy environments, particularly
+inclusion of religion in ecological models of literacy   in terms of print engagement and code-/meaning-
+development in the Global South, where religious         based literacy practices, local community
+institutions often play a central role in everyday       programming such as Sunday Schools emerged
+life. Indeed, such a perspective is particularly         as an important source of supplemental literacy
+poignant in Jamaica — the country known for              enrichment.
+having the most churches per square mile in the               Within the mesosystem, the findings suggest
+world (Olsen, 1999; Lowe, 2021). Additionally,           both interconnectedness as well as tensions
+with most teachers in the larger sample reporting        among microsystems. Teachers, for instance,
+volunteering as Sunday School teachers on a              were key figures in both school and Sunday
+weekly basis (Tucker, 2023), it was important to         School settings, demonstrating overlapping and
+account for this contextual experience of children       interconnected roles across microsystems. At the
+as a source of community literacy practice.              same time, the data also highlight tensions within
+Sunday School in Jamaica serves not only to              the mesosystem, particularly the misalignment
+transmit Christian beliefs to younger generations        between home and school language practices.
+but also facilitates literacy development.               While Jamaican Creole was more commonly
+Activities such as Bible reading, memorization           spoken in homes — particularly among children
+of scripture, poetry, singing, and reading, offer        raised by older caregivers (60%), the language
+children meaningful, sustained engagement with           of instruction, learning, and assessment in
+print (Reid, 2022). Prior research supports the          schools remains Standard Jamaican English. This
+value of such religious literacy activities, which       disconnect may limit caregivers’ ability to provide
+have been shown to strengthen foundational               literacy environments aligned with the language
+language skills like phonological awareness              expectations of the formal education system.
+and oral language (McMillon & Edwards, 2014),                 Beyond these more immediate systems,
+as well as support higher-order skills such as           both the exosystem and macrosystem influence
+reading comprehension (Papen, 2018).                     children’s experiences of home language and
+                                                         literacy environments. Study findings showed
+An Ecological Understanding                              that exosystemic influences, such as financial
+of Jamaican Home Literacy                                constraints, employment demands, and limited
+Environments                                             formal education also constrain the ability of
+    The findings underscore the value of using           some parents to participate in, or prioritize
+an ecological systems framework to interpret             home-based literacy activities. Consequently,
+child literacy development in the Caribbean.             greater responsibility for supporting children’s
+This perspective emphasizes the nested and               literacy development was often placed on
+interacting environments that shape child                teachers, particularly for print-focused practices
+development. In this study, influences ranged            like storybook reading and writing. At the
+from proximal settings, such as the home, to             macrosystemic       level,  overarching     cultural
+broader sociocultural and economic conditions            influences such as societal views on the role of
+166                                                                                             Tucker et al.
+
+
+
+
+teachers and parents in literacy instruction; the      providing guidance on creating more facilitative
+cultural significance of religious institutions; the   home literacy environments that support both
+status of Jamaican Creole versus English; as well      reading and writing skills among children. Such
+as patterns of intergenerational caregiving likely     resources would need to be context-specific,
+shape caregivers’ beliefs and practices related        using varied accessible mediums (e.g., websites,
+to literacy support. Taken together, the findings      videos, social media) to highlight activities and
+demonstrate how the interaction of factors across      tips for incorporating both formal and informal
+the microsystem, mesosystem, exosystem, and            literacy practices into daily family routines.
+macrosystem contributes to a more holistic and              Based on the study findings, future research
+context-sensitive understanding of home literacy       is needed to explore the nature and role of
+practices and child literacy development in the        cultural and community practices in literacy
+Jamaican context.                                      development. Exploring the efficacy of already
+                                                       existing and culturally sustainable resources
+                                                       in communities such as Sunday Schools may
+Conclusions and Implications
+                                                       prove to be particularly useful in contexts like
+     In 2023, the Jamaican Ministry of Education       Jamaica where the church plays a central role
+named parental involvement as a crucial and            in community development, libraries are few and
+indispensable factor in addressing poor student        under-resourced, and where schoolteachers often
+performance across all levels of the sector            volunteer as Sunday School teachers (Tucker,
+(Murphy, 2023) – an acknowledgement consistent         2023). While the present study only used Sunday
+with the ecological systems approach to literacy       School attendance as a proxy for community
+development and the relatively large body of           literacy, it may be worthwhile to explore other
+research highlighting the key role of home literacy    context-sensitive community literacy practices
+environments in student outcomes. In response,         and their possible role in supporting literacy
+this exploratory study sought to address a             development in similar contexts. Similarly, in
+significant gap in the literature by examining         future research, it may be worth exploring the
+the nature of home language and literacy               role of storytelling — another cultural hallmark of
+environments among primary school learners             oral cultures, that may serve to facilitate literacy
+in the Jamaican context. A key contribution of         development in both the home and school
+this study is that the findings provide a window       languages, while facilitating cultural transmission
+into the nature of more domain-specific home           across generations.
+language and literacy practices in the Jamaican             A key implication emerging from this study
+context, relative to a more general account of         is the need for contextually grounded tools
+parent involvement. As such, the findings can          to understand home language and literacy
+contribute to a more holistic understanding of         environments.       Typical   predictor    variables
+reading and writing outcomes on the island. The        from Global North contexts may overlook key
+findings also point to the potential of community-     community-driven forms of literacy engagement,
+and faith-based programs as meaningful                 such as faith-based education, that play a
+contributors to children’s literacy development—       substantial role in children’s literacy trajectories
+offering promising avenues for intervention            in the Caribbean and similar settings. As such,
+locally and regionally.                                researchers are encouraged to adapt, develop,
+     The findings have implications for research       and validate tools that are better able to capture
+and practice. Considering the concerning               the nature of child development in the Caribbean
+literacy outcomes in Jamaica and the wider             context — considering contextual features such
+Caribbean region (Inter-American Development           as family structures, linguistic landscapes,
+Bank, 2023; World Bank, 2023) and research             language policies, and the impact of the wider
+highlighting the key role of home environments         community.
+in literacy development, parents, caregivers,
+and communities may benefit from resources
+It Starts at Home                                                                                       167
+
+
+
+     The Jamaican Ministry of Education has already       Ethical Approval
+acknowledged the critical role of parents and
+                                                              Ethical Approval was granted by the
+caregivers in addressing the island’s persistent
+                                                          Departmental Research Ethics Committee for
+literacy challenges. As efforts continue, there is
+                                                          Education at the University of Oxford (Reference
+a need to broaden the definition of meaningful
+                                                          no.: ED-CIA-21-033). Study participants provided
+parental engagement, particularly in rural and
+                                                          written consent (online) after reviewing the study
+low-resource communities. In collaboration
+                                                          information documents and consent forms. Study
+with researchers, the Ministry should work to
+                                                          information forms outlined the nature of the
+develop culturally and contextually responsive
+                                                          study, the reasons for requesting participation,
+frameworks and guidance that recognize diverse
+                                                          information confidentiality procedures, as well as
+forms of engagement, including oral storytelling,
+                                                          on the storage and usage of data. All participants
+functional literacy activities, and participation in
+                                                          were fully aware of their right to withdraw from
+faith-based programs as legitimate and valuable
+                                                          the study at any time. Pseudonyms are used
+contributions to children’s literacy development.
+                                                          throughout.
+At the same time, and as previously discussed,
+greater efforts should be made to provide
+accessible training and resources to caregivers,          Funding
+to strengthen their confidence and capacity to
+engage in home-based literacy practices.                     This study was funded by the University of
+     This study was not without limitations. A            Oxford Clarendon Fund.
+key limitation of the present study concerns the
+likelihood of sampling bias. In administering             Declaration of Interest Statement
+the questionnaire online rather than in-person
+                                                              The authors report there are no competing
+(orally) or using a paper format, it is likely that
+                                                          interests to declare.
+numerous caregivers may have been excluded
+as the task not only required traditional literacy
+skills (i.e., reading) but also technological literacy,
+and access to devices. Future studies may                 Shawna-Kaye D. Tucker, PhD, is an assistant
+consider diverse modalities to reduce sampling            professor of Applied Linguistics at the University
+bias. Additionally, as the current exploratory            of Toronto.
+study adopted a survey design that relied on              Email: shawnakaye.tucker@utoronto.ca
+self-reporting — future research in the field
+may benefit from the triangulation of various             Victoria A. Murphy, PhD, is the director and a
+ethnographic data collection methods (e.g.,               professor of Applied Linguistics in the Department
+                                                          of Education at the University of Oxford.
+observation, interviews) which would possibly
+allow for deeper engagement with participants             Email: victoria.murphy@education.ox.ac.uk
+and thicker descriptions of Caribbean home                Hamish Chalmers, PhD, is a senior lecturer
+literacy environments.                                    of Applied Linguistics in the Department of
+     Finally, it is important to underscore that this     Education at the University of Oxford.
+study was conducted in a rural Jamaican town and          Email: hamish.chalmers@education.ox.ac.uk
+does not seek to offer a comprehensive account of
+home literacy environments across the island. To
+develop a more representative understanding, future
+research would benefit from inferential designs that
+incorporate a range of locational contexts (e.g.,
+urban vs. rural, across multiple islands).
+168                                                                                            Tucker et al.
+
+
+
+
+References                                             Cole, S. M. (2021). Contextualising parental
+                                                           involvement at the elementary level in
+Aram, D., & Levin, I. (2001). Mother–child
+                                                           Jamaica. International Journal of Early Years
+    joint writing in low SES: Sociocultural
+                                                           Education, 29(2), 139–153. https://doi.org/10.
+    factors, maternal mediation, and emergent
+                                                           1080/09669760.2020.1777844
+    literacy. Cognitive Development, 16(3),
+                                                       Cole, S. M. (2022). The impact of early parental
+    831–852. https://doi.org/10.1016/S0885-
+                                                           involvement on academic outcome. In S.
+    2014(01)00067-3
+                                                           Stewart, S. Cole, Y. Lewis-Fokum (Eds.), Each
+Aram, D., & Levin, I. (2004). The role of maternal
+                                                           one teach one: Parental involvement and
+    mediation of writing to kindergartners in
+                                                           family engagement in Jamaica’s education
+    promoting literacy achievements in school:
+                                                           system (pp. 27–39). University of the
+    A longitudinal perspective. Reading and
+                                                           West Indies Press. https://www.uwipress.
+    Writing: An Interdisciplinary Journal,
+                                                           com/9789766409029/each-one-teach-one/
+    17(4), 387–409. https://doi.org/10.1023/
+                                                       Cook, L. D., & Jennings, Z. (2016). Perspectives
+    B:READ.0000032665.14437.e0
+                                                           of Jamaican parents and their secondary
+Bronfenbrenner, U. (1979). The Ecology of human
+                                                           school children on the value of education:
+    development: Experiments by nature and
+                                                           Effects of selected variables on parents’
+    design. Harvard University Press. https://doi.
+                                                           perspectives. International Journal of
+    org/10.4159/9780674028845
+                                                           Educational Development 50, 90–99. https://
+Brooks, R., & Roofe, C. (2022). Improving parental
+                                                           doi.org/10.1016/j.ijedudev.2016.05.005
+    involvement for students’ success: Outlining
+                                                       Cummins, J. (1979). Cognitive/academic language
+    a framework for a “non-traditional” high
+                                                           proficiency, linguistic interdependence, the
+    school in Jamaica. In S. Stewart, S. Cole, Y.
+                                                           optimum age question and some other matters.
+    Lewis-Fokum (Eds.), Each one teach one:
+                                                           Working Papers on Bilingualism, 19, 121–129.
+    Parental involvement and family engagement
+                                                       Cummins, J. (2017). BICS and CALP: Empirical
+    in Jamaica’s education system (pp. 27–39).
+                                                           and Theoretical Status of the Distinction. In
+    University of the West Indies Press.
+                                                           B.V Street & S. May (Eds.), Encyclopaedia of
+Butler, Y. G., & Le, V.-N. (2018). A longitudinal
+                                                           Language and Education (pp. 59–71), Springer.
+    investigation of parental social-economic status
+                                                           https://doi.org/10.1007/978–0-387–30424–3_36
+    (SES) and young students’ learning of English
+                                                       DeCamp, D. (1971). Towards a generative analysis
+    as a foreign language. System, 73, 4–15.
+                                                           of a post-creole speech continuum. In D.
+    https://doi.org/10.1016/j.system.2017.07.005
+                                                           Hymes (Ed.), Pidginization and creolization
+Buvaneswari, B., & Padakannaya, P. (2017).
+                                                           of languages (pp. 349–270). Cambridge
+    Development of a home literacy environment
+                                                           University Press.
+    questionnaire for Tamil-speaking kindergarten
+                                                       Dunsmuir, S., & Blatchford, P. (2004). Predictors
+    children. Language Testing in Asia, 7(1), 7–15.
+                                                           of writing competence in 4-7 year old
+    https://doi.org/10.1186/s40468–017–0047-y
+                                                           children. British Journal of Educational
+Campbell, D., & Kinkead-Clarke, Z. (2022).
+                                                           Psychology, 74(3), 461–483. http://doi.
+    Parental involvement and academic success
+                                                           org/10.1348/0007099041552323
+    at the early childhood level. In S. Stewart,
+                                                       Esmaeeli, S. (2023). A model of the home
+    S. Cole, Y. Lewis-Fokum (Eds.), Each one
+                                                           literacy environment and family risk of
+    teach one: Parental involvement and
+                                                           reading difficulty in relation to children’s
+    family engagement in Jamaica’s education
+                                                           preschool emergent literacy. Journal of
+    system (pp. 52–61). University of the
+                                                           Learning Disabilities, 0(0). https://doi.
+    West Indies Press. https://www.uwipress.
+                                                           org/10.1177/00222194231195623
+    com/9789766409029/each-one-teach-one/
+It Starts at Home                                                                                        169
+
+
+
+Field, A. (2013). Discovering statistics using SPSS:     Lewis-Fokum, Y., & Morgan, K. (2022). Towards a
+    And sex and drugs and rock “n” roll (4th ed.).          framework of parental involvement and family
+    Sage.                                                   engagement in Jamaica: A systematic review.
+Flack, Z. M., Field, A. P., & Horst, J. S. (2018). The      In S. Stewart, S. Cole, Y. Lewis-Fokum (Eds.),
+    effects of shared storybook reading on word             Each one teach one: Parental involvement and
+    learning: A meta-analysis. Developmental                family engagement in Jamaica’s education
+    Psychology, 54(7), 1334–1346. https://doi.              system (pp. 15–26). University of the
+    org/10.1037/dev0000512                                  West Indies Press. https://www.uwipress.
+Friedlander, E., & Goldenberg, C. (2023). The               com/9789766409029/each-one-teach-one/
+    literacy ecology of the home: The case of            Lewis-Smikle, J. (2003). Improving reading
+    rural Rwanda. In L. Verhoeven, S. Nag, C.               comprehension across the curriculum:
+    Perfetti, & K. Pugh (Eds.), Global variation            Challenges and response. Journal of Education
+    in literacy development (pp. 402–424).                  and Development in the Caribbean, 7(1),
+    Cambridge University Press. https://doi.                72–87. https://www.mona.uwi.edu/soe/
+    org/10.1017/9781009242585.018                           publications/jedic/article/1396
+Hoff, E. (2006). How social contexts support and         McMillon, G., & Edwards, P. A. (2014). Examining
+    shape language development. Developmental               shared domains of literacy in the church and
+    Review, 26(1), 55–85. https://doi.                      school of African American children. In J.
+    org/10.1016/j.dr.2005.11.002                            Flood, S. B. Heath, D. Lapp (Eds.), Handbook
+Hoover-Dempsey, K., & Sandler, H. (1997).                   of research on teaching literacy through the
+    Why do parents become involved in their                 communicative and visual arts (pp. 319–328)
+    children’s education? Review of Educational          Lowe, E. (2021, May 17). Jamaica: A
+    Research, 67(1), 3–42. https://doi.                     violent Christian country. https://www.
+    org/10.3102/00346543067001003                           jamaicaobserver.com/2021/05/17/jamaica-a-
+Inter-American Development Bank. (2023).                    violent-christian-country/
+    Latin America and the Caribbean in PISA.             MoEY (2022). Legacy policies of the ministry of
+    https://www.iadb.org/en/who-we-are/topics/              education and youth. https://moey.gov.jm/wp-
+    education/education-initiatives/latin-america-          content/uploads/2022/08/LEGACY-POLICIES-
+    and-caribbean-pisa                                      OF-THE-MOEY-REVISED-AUGUST-3-2022.pdf
+Jaeger, E. L. (2016). Negotiating complexity: A          Murphy, J. (2023, August 4). Parental involvement
+    bioecological systems perspective on literacy           key to implementation of education
+    development. Human Development, 59(4),                  transformation commission report. Jamaica
+    163–187. https://doi.org/10.1159/000448743              Information Service. https://jis.gov.jm/
+Jamaica Education Transformation Commission.                parental-involvement-key-to-implementation-
+    (2021). The reform of education in Jamaica              of-education-transformation-commission-
+    report. https://opm.gov.jm/wp-content/                  report/
+    uploads/flipbook/jetc-reform-of-education-in-        Nag, S., Vagh, S. B., Dulay, K. M., & Snowling, M.
+    jamaica-2021/                                           J. (2019). Home language, school language
+Jamaica Information Service. (2023, August 4).              and children’s literacy attainments: A
+    Parental involvement key to implementation of           systematic review of evidence from low- and
+    education transformation commission report.             middle-income countries. Review of Education,
+    https://jis.gov.jm/parental-involvement-                7(1), 91–150. https://doi.org/10.1002/
+    key-to-implementation-of-education-                     rev3.3130
+    transformation-commission-report/                    Nero, S. J. (2014). De facto language education
+Johnson, J., & Carpenter, K. (2006). Home-school            policy through teachers’ attitudes and practices:
+    relationships: Bridging educational gaps.               A critical ethnographic study in three Jamaican
+    Caribbean Journal of Education, 28(2), 163–86.          schools. Language Policy, 13(3), 221–242.
+                                                            https://doi.org/10.1007/s10993-013-9311-x
+170                                                                                                Tucker et al.
+
+
+
+
+Nero, S. J., & Stevens, L. (2018). Analysing            Roopnarine, J. L., & Dede Yildirim, E. (2018).
+    students’ writing in a Jamaican Creole-                 Paternal and maternal engagement in play,
+    speaking context- An ecological and systemic            storytelling, and reading in five Caribbean
+    functional approach. Linguistics and Education,         countries: Associations with preschoolers’
+    43, 13–24. https://doi.org/10.1016/j.                   literacy skills. International Journal of Play,
+    linged.2017.12.002                                      7(2), 132–145, 10. https://doi.org/10.1080/21
+Ngorosho, D. (2011). Reading and writing ability            594937.2018.1496000
+    in relation to home environment: A study in         Samms-Vaughan, M. (2001). Cognition,
+    primary education in rural Tanzania. Child              educational attainment and behaviour in
+    Indicators Research, 4(3), 369–388. https://            a cohort of Jamaican children of Jamaica.
+    doi.org/10.1007/s12187–010–9089–8                       Planning Institute of Jamaica.
+Olsen, T. (1999, October 4). The island of too          Samms-Vaughan, M. (2008). Developmental
+    many churches. Christianity Today. https://             psychology in Caribbean infants and
+    www.christianitytoday.com/ct/1999/                      preschoolers. In F. W. Hickling, B. K.
+    october4/9tb064.html                                    Matthies, K. Morgan, and R. C. Gibson (Eds.),
+Papen, U. (2018). Hymns, prayers and Bible                  Perspectives in Caribbean Psychology (pp.
+    stories: the role of religious literacy practices       163–203). University of the West Indies Press.
+    in children’s literacy learning. Ethnography and    Sénéchal, M., & LeFevre, J. (2002). Parental
+    Education, 13(1), 119–134. https://doi.org/10.          involvement in the development of children’s
+    1080/17457823.2016.1277773                              reading skill: a five-year longitudinal study.
+Phillips, B. M., & Lonigan, C. J. (2009). Variations        Child Development, 73(2), 445–460. https://
+    in the home literacy environment of preschool           doi.org/10.1111/1467–8624.00417
+    children: A cluster analytic approach. Scientific   Sénéchal, M., & LeFevre, J. (2014). Continuity and
+    Studies of Reading, 13, 146–1 74. http://               change in the home literacy Environment as
+    dx.doi.org/10.1080/10888430902769533.                   predictors of growth in vocabulary and reading.
+Puglisi, M. L., Hulme, C., Hamilton, L. G., &               Child Development, 85(4), 1552–1568. https://
+    Snowling, M. J. (2017). The home literacy               doi.org/10.1111/cdev.12222
+    environment is a correlate, but perhaps not         Sénéchal, M., & LeFevre, J., Thomas, E. M., &
+    a cause, of variations in children’s language           Daley, K. E. (1998). Differential effects of
+    and literacy development. Scientific Studies of         home literacy experiences on the development
+    Reading, 21(6), 498–514. https://doi.org/10.1           of oral and written language. Reading Research
+    080/10888438.2017.1346660                               Quarterly, 33(1), 96–116. http://dx.doi.
+Puranik, C. S., Phillips, B. M., Lonigan, C. J., &          org/10.1598/RRQ.33.1.5
+    Gibson, E. (2018). Home literacy practices          Stone, R., Hoop, T., Coombes, A., & Nakamura, P.
+    and preschool children’s emergent writing               (2020). What works to improve early grade
+    skills: An initial investigation. Early Childhood       literacy in Latin America and the Caribbean? A
+    Research Quarterly, 42, 228–238. https://doi.           systematic review and meta-analysis. Campbell
+    org/10.1016/j.ecresq.2017.10.004                        Systematic Review, 16(1), e1067-n/a. https://
+Reid, R. (2022, April 14). Revitalise sunday and            doi.org/10.1002/cl2.1067
+    sabbath schools. The Jamaica Observer.              Syverson, M. A. (1999). The wealth of reality:
+    https://www.jamaicaobserver.com/columns/                An ecology of composition. Southern Illinois
+    revitalise-sunday-and-sabbath-schools/                  University Press.
+Ricketts, H., & Anderson, P. (2009). Parenting          Tizard, B., Blatchford, P., Burke, J., Farquhar, C., &
+    in Jamaica. Policy Research Unit, Planning              Plewis, I. (1988). Young children at school in
+    Institute of Jamaica. https://www.pioj .gov.jm/         the inner city. Lawrence Erlbaum Associates.
+    product/parenting-in-jamaica/
+It Starts at Home                                     171
+
+
+
+Tucker, S.D (2023). Writing in creole contexts: A
+   study of Jamaican primary school students and
+   teachers [PhD thesis]. University of Oxford.
+Tucker, S. D., Chalmers, H., & Murphy, V. A.
+   (2025). Writing in creole contexts: A study of
+   Jamaican primary school students. Reading
+   Research Quarterly, 60(1), Article e601.
+   https://doi.org/10.1002/rrq.601
+Wells, G. (1987). The meaning makers: Children
+   learning language and using language to learn.
+   Hodder & Stoughton.
+World Bank. (2023). The learning crisis of
+   adolescents in Latin America and the
+   Caribbean: A first look at the new PISA results.
+   https://blogs.worldbank.org/latinamerica/
+   learning-crisis-latin-america-caribbean-pisa-
+   results
+

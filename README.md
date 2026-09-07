@@ -106,6 +106,10 @@ Caribbean Scribbles Publishing is a Saint Kitts & Nevis based hybrid publishing 
 
 **Founder:** Venetta J. Smithen — Author | Publisher
 
+## Customer Discovery
+
+The five-part Ideation & Customer Discovery work is documented in [IDEATION_CUSTOMER_DISCOVERY.md](IDEATION_CUSTOMER_DISCOVERY.md). It separates validated problem evidence from unvalidated product-market-fit assumptions and defines the interview, concept-test, and pilot thresholds required before expanding Island Tales.
+
 ---
 
 *Built with GitHub Pages · No server required · Fully static*
