@@ -1,256 +1,368 @@
-# Island Tales — Ideation & Customer Discovery
+# Caribbean Scribbles — Ideation & Customer Discovery Pills
 
-**Prepared for:** Caribbean Scribbles Publishing / Island Tales  
-**Author:** Manus AI  
+**Project:** Caribbean Scribbles ecosystem, including publishing, educational products, digital learning, Island Tales, and author services
 **Date:** 7 September 2026  
-**Purpose:** Validate demand among families, schools, institutions, and Caribbean authors before expanding the product beyond the current book-discovery/newsfeed site.
+**Purpose:** Complete the five exact Ideation & Customer Discovery pills while testing one ecosystem-level assumption across four customer groups.
 
-## Executive conclusion
+## 1. What we are validating
 
-The five discovery activities are complete. The evidence validates a real and recurring problem around **access to, discovery of, and engagement with Caribbean children's reading content**. The strongest demand signal comes from schools and regional institutions: the OECS/USAID Early Learners Programme explicitly recognized a shortage of culturally relevant books in OECS schools and printed and distributed almost 51,000 locally or regionally authored books.[3] School principals in six OECS territories also describe the need for varied books, daily reading, local authors, culturally relevant content, and cross-border teacher collaboration.[7]
+The core assumption is:
 
-Family evidence supports a related but more specific need. A recent Jamaican study found that parents value literacy support but that more formal shared-reading and direct instructional practices are less common, while home language, caregiver capacity, and the role of teachers shape what families can realistically do at home.[5] This points toward a product that makes shared reading easier and complements teachers, rather than one that assumes parents want to become literacy instructors.
+> **Caribbean families, educators, and institutions need more accessible, engaging, and culturally authentic children's literacy resources, while Caribbean authors need better support to develop, publish, and distribute culturally relevant stories. Caribbean Scribbles addresses both gaps through publishing, educational products, digital learning, and author services.**
 
-Author-side demand is also credible. Caribbean publishing and literary-platform sources describe insufficient access to agents, professional resources, bookstores, and readers, while a Caribbean book-blog creator reported that readers struggled to find good Caribbean books even when publishers claimed demand was too low.[1] [4] However, the author evidence is older and the current product demand is not yet proven through direct interviews, usage data, paid pilots, or signed institutional commitments.
+This is a **hypothesis**, not a conclusion. The discovery work must determine whether each group experiences a meaningful, recurring problem; how it currently solves that problem; whether Caribbean Scribbles' proposed ecosystem is relevant; which segment has the strongest urgency; and who has authority and willingness to pay.
 
-> **Decision:** Proceed to a tightly scoped validation pilot, not a full feature expansion. Test whether families and educators will repeatedly use a curated Caribbean story experience with narration and guided prompts, and whether authors, schools, libraries, or cultural institutions will contribute content, recommend the platform, or pay for a pilot.
+We will not test every product separately. We will test the ecosystem and then identify the strongest initial segment.
 
-## What has been validated—and what has not
+| Customer group | Initial problem hypothesis—not to be stated as fact in interviews | Relevant Caribbean Scribbles offers to test later |
+|---|---|---|
+| Parents and families | Children may have limited access to books in which they recognize their culture and experiences. | Caribbean children's books, puzzles, activities, and Island Tales. |
+| Schools and educators | Educators may need engaging, curriculum-supporting Caribbean literacy and cultural resources. | Books, educational resources, reading programmes, and digital content. |
+| Institutions | Institutions may need scalable literacy and cultural programmes and resources. | School/community packages, Island Tales licensing, and literacy initiatives. |
+| Caribbean authors | Publishing may be confusing, expensive, and difficult to navigate. | Publishing guidance, production support, and distribution pathways. |
 
-| Question | Current answer | Evidence strength | What is still required |
-|---|---|---:|---|
-| Do Caribbean schools and institutions experience a shortage of culturally relevant children's reading content? | **Yes.** OECS explicitly describes a tremendous shortage and funded large-scale local-content production and distribution. | Strong | Confirm whether the shortage persists in the specific target schools and whether digital delivery solves a current workflow problem. |
-| Do families need support for home reading? | **Yes, but the need is nuanced.** Parents value literacy support, while time, language, caregiver confidence, and the teacher-parent division of responsibility affect practice. | Moderate | Interview caregivers directly and observe whether guided narration or prompts increase shared reading. |
-| Do Caribbean authors face discoverability and distribution barriers? | **Yes.** Multiple sources describe barriers to representation, professional resources, retail access, and audience discovery. | Moderate to strong | Interview current children's authors and test willingness to license, contribute, or promote content. |
-| Are there existing alternatives? | **Yes.** OECS digital repositories, institutional programmes, book catalogues, bookstores, and literacy initiatives already exist. | Strong | Determine which jobs remain poorly served: curation, engagement, narration, teacher use, and author visibility. |
-| Will customers use or pay for Island Tales specifically? | **Not yet known.** The problem is validated; product-market fit is not. | Weak | Run the concept test and pilot below, with behavioral commitments rather than opinions alone. |
+### Research discipline
 
-The most important discipline is to avoid saying that a market has been proven merely because the problem is real. The research establishes a **validated problem space**, not yet a validated business model.
+Interviewees must not be told that they have these problems. The interviewer should ask about **recent real situations**, current workarounds, costs, frustrations, and decisions. Product descriptions should be shown only after problem discovery, and only then should the researcher test reaction and commitment.
+
+Existing external evidence supports investigating this problem space, but it does not prove demand for Caribbean Scribbles. The OECS/USAID Early Learners Programme, for example, explicitly identified a shortage of culturally relevant books in OECS schools and distributed almost 51,000 locally or regionally authored books.[3] A Jamaican home-literacy study found that parents valued literacy support while formal shared-reading and direct instructional practices were less common and shaped by language, caregiver capacity, and the teacher-parent division of responsibility.[5] Caribbean publishing sources describe discoverability, professional-resource, retail, and audience-reach barriers for authors.[1] [4] These findings establish **reasons to research**, not permission to claim product-market fit.
 
 ---
 
-# Activity 1 — Problem discovery and evidence review
+# Pill 1 — Customer Personas
 
-## Discovery question
+## Purpose
 
-Do families, schools, institutions, and Caribbean authors experience a meaningful problem that Island Tales could address?
+A persona is a concise, evidence-based representation of a customer segment. It should help the team understand the person's context, goals, behaviors, decision authority, constraints, and buying process. Personas should not be fictional biographies created from intuition.
 
-## Evidence gathered
+## Draft persona hypotheses
 
-### Schools and institutions
+These are **research starting points**. Fields marked “to validate” must be completed through interviews or observed behavior.
 
-The OECS/USAID Early Learners Programme is unusually direct: it says the region has a “tremendous shortage” of culturally relevant books in schools and links engaging, culturally relevant resources to student motivation and interest in reading.[3] The programme then operationalized the problem by inviting children, teachers, parents, and community members to create books and distributing nearly 51,000 locally or regionally authored copies.[3]
+### Persona A — Parent or family caregiver
 
-> “The ELP recognizes the tremendous shortage of culturally relevant books in schools across the OECS.” [3]
+| Field | Working hypothesis | Evidence status |
+|---|---|---|
+| Role and context | Parent, grandparent, guardian, or other caregiver selecting stories and activities for a child aged approximately 3–12. | Segment definition; validate age, household, and caregiver role. |
+| Main goals | Support the child's reading, enjoyment, confidence, cultural connection, and bedtime or family routines. | Hypothesis; ask about the last time this happened. |
+| Current behavior | May use print books, school recommendations, family stories, YouTube, general reading apps, bookstores, libraries, or free online resources. | To validate through recent-activity questions. |
+| Possible trigger | A child asks for a story, a school recommends reading, a holiday or cultural event occurs, or a caregiver notices a reading difficulty. | Hypothesis. |
+| Friction | Time, price, connectivity, device access, language fit, reading confidence, and difficulty finding suitable Caribbean titles. | Hypothesis; do not lead with these terms. |
+| Decision authority | Usually chooses or influences free content; may purchase books or activities; may not control school or institutional spending. | To validate. |
+| Success measure | Child starts and finishes a story, asks to read again, talks about the story, or caregiver feels the activity was worthwhile. | To validate with observed use. |
+| Potential offer | A trusted, easy-to-use mix of Caribbean stories, audio, activities, and reading prompts. | Concept to test after problem discovery. |
 
-This is stronger than a general statement of educational need because an institution allocated programme resources to create and distribute content. The evidence supports the problem of **content supply and access**, but it does not prove that a new commercial platform is needed. Island Tales must therefore compete on a distinct job: making relevant content easier to discover, use repeatedly, and connect to home and classroom routines.
+### Persona B — Teacher or school leader
 
-The OECS Global Digital Library adds an important constraint. The repository offers more than 6,000 books in 83 languages and is designed for children, teachers, parents, and caregivers.[6] The OECS itself warns that moving learning online does not automatically widen participation because cost, geography, time, and access conditions remain barriers.[6]
+| Field | Working hypothesis | Evidence status |
+|---|---|---|
+| Role and context | Early-grade teacher, literacy lead, librarian, principal, or curriculum coordinator. | Segment definition; validate role and grade level. |
+| Main goals | Support reading outcomes, engagement, cultural learning, lesson planning, and family connection. | Hypothesis. |
+| Current behavior | Uses curriculum materials, school libraries, teacher-created resources, local authors, online repositories, and referrals from colleagues. | To validate. |
+| Possible trigger | New term, literacy intervention, reading month, inspection, curriculum change, or lack of engaging material for a class. | Hypothesis. |
+| Friction | Planning time, rights restrictions, device or connectivity limits, appropriateness, curriculum alignment, and procurement procedures. | To validate. |
+| Decision authority | May recommend or use resources but may require principal, ministry, board, or donor approval to buy. | To validate. |
+| Success measure | Resource is easy to find, fits a lesson, is used by learners, and does not create extra administrative burden. | To validate through a real classroom task. |
+| Potential offer | Curated Caribbean content, reading guides, story links, print companions, and optional digital access. | Concept to test later. |
 
-> “Covid-19 has taught us that pivoting to online learning has not led to an automatic widening of access and participation.” [6]
+### Persona C — Institutional programme or partnership lead
 
-### Families
+| Field | Working hypothesis | Evidence status |
+|---|---|---|
+| Role and context | Ministry unit, NGO, library service, cultural organisation, donor programme, teacher-training body, or community literacy initiative. | Segment definition; validate organisation type. |
+| Main goals | Reach many learners, demonstrate measurable impact, protect cultural relevance, and deliver within budget and reporting requirements. | Hypothesis. |
+| Current behavior | Funds, procures, distributes, or partners around books, training, libraries, literacy activities, or digital resources. | To validate. |
+| Possible trigger | Grant cycle, programme expansion, emergency access need, policy priority, or demand from schools and communities. | Hypothesis. |
+| Friction | Procurement, evidence standards, safeguarding, rights, connectivity, monitoring, implementation capacity, and sustainability. | To validate. |
+| Decision authority | May control programme funds or influence a funder/procurement decision. | To validate with a decision map. |
+| Success measure | Defined reach, repeat use, credible outcomes, partner reliability, and a sustainable delivery model. | To validate. |
+| Potential offer | School/community packages, licensing, co-created content, implementation support, and reporting. | Concept to test later. |
 
-The Jamaica home-literacy study provides direct evidence that family literacy is not simply a matter of whether parents care. Parents reported frequent writing or typing, word games, and reading non-work-related material, but more formal shared reading with explicit attention to letters and words was less common.[5] More than 75% strongly agreed that parents can help at home and should encourage interest and confidence in reading and writing, while respondents often positioned teachers as the primary instructors.[5]
+### Persona D — Caribbean author or illustrator
 
-> “Teachers are there to teach, whilst parents are to reinforce what was taught.” [5]
+| Field | Working hypothesis | Evidence status |
+|---|---|---|
+| Role and context | Caribbean-based or diaspora author, illustrator, educator-author, or emerging creator of children's content. | Segment definition; validate genre, audience, and career stage. |
+| Main goals | Create good work, reach children, build an audience, navigate production, earn income or recognition, and retain appropriate rights. | Hypothesis. |
+| Current behavior | May self-publish, approach publishers, use social media, sell directly, attend festivals, work with schools, or rely on word of mouth. | To validate. |
+| Possible trigger | Completed manuscript, repeated reader interest, an award, school invitation, or frustration with current publishing route. | Hypothesis. |
+| Friction | Editing, illustration, design, cost, rights, distribution, discoverability, marketing, and uncertainty about demand. | Hypothesis; ask for the last project rather than naming these barriers. |
+| Decision authority | Controls or shares rights to their work; may need co-author or illustrator agreement. | To validate. |
+| Success measure | Finished work, credible reach to children, transparent terms, sales or licensing, and useful audience feedback. | To validate. |
+| Potential offer | Publishing guidance, production support, distribution, author profile, school/library access, and transparent rights terms. | Concept to test later. |
 
-The implication is precise: families may value a low-friction tool that makes reading together enjoyable and structured, but a product framed as a replacement for teachers or a demanding literacy curriculum may be rejected. Jamaican Creole and English, older caregivers, and differences in caregiver literacy further support testing language sensitivity, narration, accessible instructions, and shared-reading prompts.[5]
+## Persona validation questions
+
+Ask all participants: “Tell me about the last time you had to [select, find, use, fund, create, publish, or distribute] a children's literacy or cultural resource. What did you do first? What happened next? What did it cost in time, money, or effort? What did you use instead?”
+
+Do not ask, “Would you use Caribbean Scribbles?” until the participant has described a recent situation. A persona becomes credible when it is supported by repeated patterns across independent interviews and by behavior such as use, referral, submission, pilot participation, procurement, or payment.
+
+---
+
+# Pill 2 — Empathy Map
+
+## Purpose
+
+An empathy map organizes what a customer **says, thinks, does, and feels**, together with pains, gains, influences, and context. It is not a place to invent emotional language. Each statement should be labelled as a direct quote, observed behavior, repeated pattern, or hypothesis.
+
+## Four segment empathy-map hypotheses
+
+### Parents and families
+
+| Says | Thinks | Does | Feels |
+|---|---|---|---|
+| To be discovered through interviews. | To be discovered; do not assume that cultural representation is the primary concern. | To be observed through the last-book or last-reading-activity story. | To be described in the participant's own words. |
+
+| Pains to investigate | Gains to investigate | Influences and context |
+|---|---|---|
+| What makes selecting or sharing children's reading difficult? What causes abandonment? | What would make the activity worthwhile enough to repeat? | Child preference, school recommendations, family language, device/data access, relatives, libraries, faith/community groups, and price. |
+
+### Schools and educators
+
+| Says | Thinks | Does | Feels |
+|---|---|---|---|
+| To be discovered through interviews. | To be discovered through planning and resource-selection decisions. | Observe how a teacher actually finds, adapts, and uses a resource. | Ask about confidence, workload, and perceived risk only after discussing a real example. |
+
+| Pains to investigate | Gains to investigate | Influences and context |
+|---|---|---|
+| What slows down lesson preparation or resource adoption? | What would make a resource easy to use tomorrow? | Curriculum, principal, ministry, colleagues, school library, internet/device access, assessment requirements, and family expectations. |
+
+### Institutions
+
+| Says | Thinks | Does | Feels |
+|---|---|---|---|
+| To be discovered through programme and procurement conversations. | To be discovered through budget, evidence, and implementation decisions. | Map the last programme purchase, partnership, or distribution effort. | Explore confidence in delivery partners, accountability pressure, and reputational risk. |
+
+| Pains to investigate | Gains to investigate | Influences and context |
+|---|---|---|
+| What causes delays, cost overruns, low participation, or weak reporting? | What would make a programme scalable, credible, and easier to report? | Funder, ministry, board, schools, community leaders, procurement, safeguarding, and connectivity. |
 
 ### Caribbean authors
 
-The Independent Publishers Guild account of Anansesem reports that the publication was founded to fill a gap in Caribbean children's and YA literature, and identifies shortages of agents, cover-design resources, professional development, library and bookstore stocking, and public awareness.[1]
-
-> “There is a strong need to discover and publish more contemporaneous Caribbean writing for children and young adults in the UK.” [1]
-
-A Small Axe interview with Anthony Williams, creator of Caribbean Book Blog, adds a demand-side view: publishers claimed insufficient demand, while his interviews and online observation suggested that readers wanted Caribbean books but had difficulty finding them.[4]
-
-> “There is a demand for Caribbean books that is not being tapped, and ... readers are complaining that it is difficult to find good books by Caribbean writers.” [4]
-
-The author problem is therefore not merely “authors need another place to upload books.” It is a connected system problem involving **discoverability, distribution, audience formation, professional support, and proof of demand**.
-
-## Activity 1 conclusion
-
-The problem is validated at the level required to justify a focused pilot. The evidence is strongest for schools and institutions, credible but more nuanced for families, and credible but partly historical for authors. The next validation step must shift from published evidence to direct behavior: interviews, prototype use, content submissions, referrals, and institutional commitments.
-
----
-
-# Activity 2 — Stakeholder segmentation, jobs-to-be-done, and pain-point map
-
-## Primary stakeholders
-
-| Stakeholder | Job they are trying to complete | Observed pain point | Evidence | Island Tales hypothesis |
-|---|---|---|---|---|
-| Families and caregivers | Help children read regularly and enjoyably at home. | Limited time, confidence, language fit, and uncertainty about how much instruction to provide. | Jamaica home-literacy study.[5] | Short narrated stories, read-aloud mode, simple questions, and low-bandwidth access will increase shared reading occasions. |
-| Children | Find stories that feel interesting, familiar, and culturally meaningful. | Limited visibility of varied Caribbean content and possible disengagement from generic materials. | OECS emphasis on variety, local authors, and culturally relevant books.[3] [7] | Personalized discovery, themes, audio, and interactive choices will improve repeat use. |
-| Teachers and schools | Find engaging reading material and support classroom reading routines. | Need variety, cultural relevance, accessible resources, and collaboration across schools. | OECS programme and principals.[3] [7] | Teacher collections, reading guides, class links, and progress-light features will save search time and support instruction. |
-| Libraries, ministries, NGOs, and cultural institutions | Extend equitable access to quality local learning resources. | Physical distribution is costly; online access alone does not remove participation barriers. | OECS digital-library announcement.[6] | A curated, adaptable, mobile-friendly content layer can complement print and institutional repositories. |
-| Caribbean authors and illustrators | Reach young readers, build visibility, and earn sustainable income or recognition. | Discoverability, distribution, representation, professional resources, and weak proof of demand. | IPG/Anansesem and Small Axe interview.[1] [4] | Author profiles, clear attribution, discovery analytics, licensing pathways, and school/library distribution can create value. |
-
-## Shared underlying job
-
-Across the segments, the common job is not simply “read a Caribbean book.” It is:
-
-> **Help a child find, access, and enjoy a culturally meaningful story in a setting where a trusted adult can support the experience, while giving creators and institutions a reliable way to reach that child.**
-
-This shared job explains why a static catalogue alone may be insufficient. CaribbeanReads demonstrates that substantial catalogue and commerce alternatives already exist.[8] Island Tales needs to validate the additional value of **guided engagement, narration, repeat discovery, classroom/home use, and author visibility**.
-
-## Highest-risk assumptions
-
-| Assumption | Why it is risky | Test required |
-|---|---|---|
-| Families have reliable enough connectivity for regular digital reading. | The OECS warns that online delivery does not automatically widen access.[6] | Test on mobile data and lower-bandwidth devices; measure completion and return use. |
-| Children will prefer interactive digital stories over print or video. | Existing print and open-library alternatives are strong.[6] [8] | A/B test read-only, narrated, and interactive versions with the same story. |
-| Teachers have time to adopt another platform. | Teacher enthusiasm does not equal workflow adoption. | Ask for one specific classroom task and measure whether teachers repeat it without support. |
-| Authors will contribute rights or content. | Visibility is valuable, but licensing, payment, and rights protection may dominate. | Test a written content offer with a real submission or licensing request. |
-| Institutions will pay. | Public-interest programmes may prefer grants, procurement, or partnerships rather than subscriptions. | Ask for a pilot letter, procurement route, or budget owner—not only positive feedback. |
-
-## Activity 2 conclusion
-
-The family and school use cases should be designed together but measured separately. Families validate **home engagement**; schools validate **workflow utility**; institutions validate **equitable distribution and partnership fit**; authors validate **content supply and creator economics**. One blended “user” metric would hide these differences.
-
----
-
-# Activity 3 — Existing alternatives and gap analysis
-
-## Alternatives identified
-
-| Alternative | What it already does well | Gap Island Tales could test | Competitive implication |
+| Says | Thinks | Does | Feels |
 |---|---|---|---|
-| OECS/USAID local-content programme | Creates and distributes culturally relevant books at regional scale. | Ongoing discovery, narration, interactive use, family engagement, and usage feedback. | Treat institutions as potential partners, not only competitors. |
-| OECS Global Digital Library | Provides a large open repository with more than 6,000 books in 83 languages and a K–12 ecosystem direction.[6] | Caribbean-specific curation, child-friendly discovery, structured reading journeys, and author-facing visibility. | “Digital” and “free” are not differentiators by themselves. |
-| CaribbeanReads | Offers a substantial curated Caribbean book catalogue with authors, illustrators, bulk orders, distributors, reading guides, and country browsing.[8] | In-session narration, comprehension, choice-based interaction, reading history, and lightweight teacher/family routines. | Island Tales should complement or partner with catalogues where possible. |
-| Physical school and public libraries | Provide trusted access, adult mediation, and print experiences. | Reach beyond opening hours and geography; make local titles easier to discover and share. | Digital must complement print, not assume print is obsolete. |
-| General digital reading and video platforms | Familiar, convenient, and rich in content. | Caribbean specificity, cultural trust, curation, and purposeful literacy support. | Compete on relevance and experience, not volume. |
+| To be discovered through a recent manuscript or publishing experience. | To be discovered through decisions about routes, rights, cost, and audience. | Trace the last work from idea to draft, production, publication, and distribution. | Explore uncertainty, pride, frustration, trust, and control only through participant language. |
 
-## The narrow, defensible opportunity
-
-The evidence does **not** support a broad claim that Caribbean children's books are unavailable. The stronger claim is:
-
-> **Caribbean children's content exists, but discovery and repeated use are fragmented across catalogues, institutional programmes, physical collections, and general platforms. Families and teachers may need a trusted, low-friction way to find culturally relevant stories and use them together, while authors and institutions need better visibility and feedback.**
-
-This opportunity is consistent with the current Island Tales repository, which already rotates Caribbean children's book recommendations and collects newsletter interest. It also implies that future product work should prioritize a small number of behaviors: story start, story completion, narration use, shared reading, repeat visits, teacher sharing, author submission, and institution referral.
-
-## Activity 3 conclusion
-
-Competitive research strengthens the case for differentiation and weakens the case for simply adding more book listings. The next product test should make the experience materially different from a catalogue: one story, one guided use case, one measurable outcome.
-
----
-
-# Activity 4 — Concept test and demand-validation instrument
-
-## Concept to test
-
-**Island Tales is a mobile-friendly Caribbean story library where children and trusted adults can discover culturally meaningful stories, listen to narration, answer simple comprehension questions, and build a reading journey. Teachers and institutions receive curated collections and lightweight guides; authors receive discoverability, attribution, and a path to school and family audiences.**
-
-The concept must be tested as four separate value propositions rather than one undifferentiated pitch:
-
-| Audience | Message to test | Behavioral signal |
+| Pains to investigate | Gains to investigate | Influences and context |
 |---|---|---|
-| Families | “Make a Caribbean story part of bedtime or shared reading in under 10 minutes.” | Caregiver starts and completes a story, then returns within seven days. |
-| Teachers | “Find culturally relevant stories and a ready-to-use prompt without adding planning work.” | Teacher uses a story in class or shares it with a class/family. |
-| Institutions | “Extend local-content programmes with measurable, equitable digital discovery.” | Institution agrees to a named pilot, data-sharing plan, or referral. |
-| Authors | “Reach young readers through trusted curation and see where your work is discovered.” | Author submits a title, signs a rights discussion, or refers readers. |
+| Where did time, money, information, or access become difficult? | What would make support valuable and trustworthy? | Agents, publishers, illustrators, printers, bookstores, schools, festivals, diaspora networks, and social media. |
 
-## Interview sample and protocol
+## Empathy-map evidence rules
 
-Recruit at least **24 participants** for the first round: six caregivers, six teachers or school leaders, four institutional/library/NGO stakeholders, and eight Caribbean children's authors or illustrators. Recruit across at least three Caribbean territories or diaspora communities if feasible. Do not recruit only friends, existing newsletter subscribers, or people already enthusiastic about Caribbean publishing.
-
-Ask past-behavior questions first:
-
-1. Tell me about the last time you looked for a Caribbean children's story for a child or class. Where did you search, and what happened?
-2. What made the search easy or difficult?
-3. What did you use instead when the ideal story or resource was unavailable?
-4. How often does this problem occur, and who else is involved in solving it?
-5. What is the consequence when the problem is not solved?
-6. Which parts of reading together are easy, and which parts require effort or confidence?
-7. For authors: how do young readers, teachers, libraries, and publishers currently discover your work?
-8. For institutions: what evidence would justify adopting or funding a new resource?
-
-Only after the interview should the interviewer show the concept. Then ask participants to complete a real task, such as finding a story for a named child, listening to two minutes of narration, answering a prompt, sharing the link, or submitting a title. Ask what they would remove before asking what they would add.
-
-## Pass/fail thresholds
-
-| Test | Minimum signal to proceed | Stop or revise if |
-|---|---:|---|
-| Caregiver problem frequency | At least 4 of 6 describe the problem as recurring within the last three months. | Most cannot recall a recent problem or solve it easily with current alternatives. |
-| Caregiver prototype use | At least 4 of 6 complete a story and at least 3 of 6 return or share within seven days. | Participants praise the idea but do not start, finish, or share a story. |
-| Teacher workflow value | At least 4 of 6 identify a specific recurring use case and at least 3 use the prototype in a real lesson or send it to a family. | The platform creates planning or classroom-management burden. |
-| Institution commitment | At least 2 of 4 agree to a defined pilot action, named contact, or letter of support. | Feedback remains general and no owner or next step is identified. |
-| Author supply | At least 4 of 8 agree to a rights conversation, submission, or promotion test. | Authors request visibility but reject the rights, payment, or attribution model. |
-| Payment or funding | At least 2 stakeholders agree to test a price, procurement route, sponsorship, or grant-funded pilot. | Everyone prefers the concept only if free, with no credible funding route. |
-
-## Activity 4 conclusion
-
-This activity is completed as a field-ready concept test, but the pass/fail results cannot be claimed until participants are recruited and observed. The critical design choice is to measure **behavioral commitments**, not stated enthusiasm.
+Every map entry must carry one of these labels: **direct quote**, **observed behavior**, **repeated pattern**, **external source**, or **unvalidated hypothesis**. The existing sources provide external context, such as the OECS statement that culturally relevant books were in short supply in schools and the Caribbean publishing accounts describing discoverability barriers.[1] [3] [4] They should not be converted into claims about what every family, educator, institution, or author thinks or feels.
 
 ---
 
-# Activity 5 — Pilot, commitment, and willingness-to-pay test
+# Pill 3 — Value Proposition Canvas
 
-## Pilot design
+## Purpose
 
-Run a four-week pilot with one family cohort, one school or teacher cohort, one institutional partner, and a small author group. Start with five to eight stories rather than a 20-story library. Use stories that are rights-cleared and represent more than one Caribbean territory or cultural tradition.
+The Value Proposition Canvas tests fit between a **customer profile** and a **value map**. It must be completed separately for each segment because a family, a school, an institution, and an author may value different outcomes and pay through different routes.
 
-| Cohort | Pilot promise | Required commitment | Primary measure |
+## Canvas A — Parents and families
+
+| Customer profile | Initial hypothesis to validate |
+|---|---|
+| Customer jobs | Find an appropriate story or activity; support a child's reading; create a shared family moment; connect a child to Caribbean culture; occupy a child meaningfully. |
+| Pains | Difficulty finding suitable content; limited time; cost; device/data limits; uncertainty about age or reading level; adult confidence; language or cultural mismatch. |
+| Gains | Child enjoys reading; adult knows what to do; story is culturally recognizable; activity is easy to repeat; child asks for another story. |
+| Products and services | Caribbean books, puzzles, activities, Island Tales, narration, guided prompts, and recommendations. |
+| Pain relievers to test | Search by age/theme; short stories; narration; low-bandwidth design; printable companion; simple adult prompt. |
+| Gain creators to test | Cultural recognition; repeat discovery; shared reading routine; visible progress; child choice. |
+| Strongest evidence | Completed and repeated family use, sharing, referral, or purchase—not compliments alone. |
+
+## Canvas B — Schools and educators
+
+| Customer profile | Initial hypothesis to validate |
+|---|---|
+| Customer jobs | Find material for a lesson; support reading practice; engage learners; connect literacy and culture; communicate with families. |
+| Pains | Planning time; unclear quality or alignment; rights; limited local variety; access constraints; procurement; extra logins or administrative work. |
+| Gains | Ready-to-use material; culturally relevant examples; learner participation; easy sharing; evidence of use; compatibility with print and classroom practice. |
+| Products and services | Books, reading programmes, educational resources, digital stories, teacher guides, and class collections. |
+| Pain relievers to test | One-page guides; clear age/level tags; downloadable or printable materials; no-training pilot; simple sharing. |
+| Gain creators to test | Teacher collaboration; author visibility; reading prompts; child choice; usage summaries. |
+| Strongest evidence | Teacher uses the resource in a real lesson, repeats use, recommends it to a colleague, or requests procurement information. |
+
+## Canvas C — Institutions
+
+| Customer profile | Initial hypothesis to validate |
+|---|---|
+| Customer jobs | Design or scale a literacy/cultural programme; reach schools and communities; meet funder or policy goals; report outcomes. |
+| Pains | Fragmented suppliers; rights and safeguarding; implementation capacity; procurement; connectivity; weak monitoring; sustainability after funding. |
+| Gains | Reliable partner; scalable content; measurable reach and use; local authors; adaptable delivery; credible reporting. |
+| Products and services | School/community packages, Island Tales licensing, co-created collections, implementation support, and literacy initiatives. |
+| Pain relievers to test | Defined pilot scope; rights-cleared content; implementation plan; offline/print fallback; data-minimal reporting. |
+| Gain creators to test | Regional author network; reusable programme assets; school-level dashboards or summaries; co-branding where appropriate. |
+| Strongest evidence | Named programme owner, defined pilot, letter of support, budget route, procurement process, or funded continuation. |
+
+## Canvas D — Caribbean authors
+
+| Customer profile | Initial hypothesis to validate |
+|---|---|
+| Customer jobs | Develop a manuscript; improve quality; publish; reach children; retain or negotiate rights; build an audience; earn income or recognition. |
+| Pains | Unclear process; production cost; editing/illustration; rights uncertainty; distribution; discoverability; lack of feedback or demand proof. |
+| Gains | Trusted guidance; transparent terms; professional production; visible attribution; access to schools and families; sales, licensing, or useful feedback. |
+| Products and services | Publishing guidance, production support, distribution pathways, author profiles, school/library access, and audience analytics. |
+| Pain relievers to test | Plain-language process; staged services; rights explanation; editorial and production checklist; distribution plan. |
+| Gain creators to test | Curated discovery; author events; school connections; reader feedback; transparent revenue or licensing. |
+| Strongest evidence | Paid service, signed rights discussion, manuscript submission, referral, or permission to include work in a defined pilot. |
+
+## Value-proposition test sequence
+
+1. Ask about the participant's most recent real job and workaround.
+2. Identify the cost of the current workaround in time, money, quality, access, or missed opportunity.
+3. Show only a short, neutral concept description.
+4. Ask which part, if any, would change the participant's current behavior.
+5. Request a concrete next step: try a prototype, introduce a colleague, submit a title, join a pilot, or discuss a paid route.
+6. Record rejection reasons and alternatives, not only positive reactions.
+
+---
+
+# Pill 4 — Business Model Canvas
+
+## Purpose
+
+The Business Model Canvas describes how the Caribbean Scribbles ecosystem may create, deliver, and capture value. At this stage it is a **testable business-model hypothesis**, not a final plan.
+
+| BMC block | Ecosystem hypothesis | Questions to validate |
+|---|---|---|
+| Customer segments | Families, schools/educators, institutions, and Caribbean authors. | Which segment has the most urgent recurring problem? Who uses, decides, and pays? |
+| Value propositions | Culturally authentic children's literacy content and services; easier discovery and engagement for readers and educators; scalable programmes for institutions; publishing and distribution support for authors. | Which outcome matters enough to change behavior or budget? |
+| Channels | Direct website, school partnerships, libraries, cultural institutions, social channels, bookstores, author networks, festivals, and email. | Where do customers currently discover resources and whom do they trust? |
+| Customer relationships | Self-service content discovery, guided family/class use, educator support, institutional implementation, and author advisory/production relationships. | What level of human support is expected and affordable? |
+| Revenue streams | Book and activity sales, school/community packages, institutional licensing or funded programmes, author services, sponsorships, grants, and potentially family digital products. | Which buyer has a budget and what procurement or payment route is realistic? |
+| Key resources | Caribbean content rights, authors and illustrators, editorial/production capability, Island Tales platform, audience data, brand trust, and partnerships. | Which resources are scarce, expensive, or rights-sensitive? |
+| Key activities | Develop and publish content; curate and distribute stories; run literacy programmes; provide author services; measure use; maintain platform and partnerships. | Which activities create customer value and which are operational overhead? |
+| Key partners | Authors, illustrators, schools, ministries, NGOs, libraries, cultural organisations, distributors, printers, funders, and technology providers. | Who can provide reach, legitimacy, content, funding, or implementation capacity? |
+| Cost structure | Content creation and rights; editing/design/illustration; printing and fulfilment; platform development/hosting; staff and partnership management; research and evaluation; marketing. | Which costs scale with users, titles, institutions, or service intensity? |
+
+## Business-model risks
+
+The biggest risk is trying to serve four segments with one business model. Families may be users and purchasers, schools may be users and recommenders, institutions may be funders or licensees, and authors may be both suppliers and service customers. The next research cycle must identify the first **wedge segment** rather than assuming that the ecosystem should launch all offers at once.
+
+A second risk is confusing reach with revenue. The OECS Global Digital Library shows that open digital resources can be large and widely targeted, while the OECS also warns that digital access alone does not remove participation barriers.[6] CaribbeanReads shows that a catalogue and distribution model already exists.[8] Caribbean Scribbles must therefore test a specific paid or funded outcome, such as a school package, institutional pilot, author production service, or family product—not charge merely for being digital.
+
+A third risk is content rights. Any Island Tales or institutional offer must have clear permissions, attribution, compensation, territory, duration, format, and re-use terms before pilot distribution.
+
+---
+
+# Pill 5 — User Research
+
+## Purpose
+
+User Research is the evidence-gathering activity that turns the first four pills from hypotheses into validated or rejected findings. It must combine interviews with observation or behavioral tests. A survey alone is insufficient because stated interest is weaker than observed behavior and commitment.
+
+## Research questions
+
+The research should answer these questions without embedding the proposed problems in the wording:
+
+1. What was the last children's literacy or cultural-resource problem each participant had to solve?
+2. How did the participant solve it, and what alternatives did they consider?
+3. How often does the situation occur?
+4. What did the current solution cost in time, money, access, quality, or missed opportunity?
+5. Who else was involved in the decision or affected by the outcome?
+6. What would make the situation materially better?
+7. What would prevent the participant from changing the current approach?
+8. What would count as evidence that a new resource worked?
+9. Who has authority to approve, recommend, buy, fund, license, or submit content?
+10. What is the smallest realistic next step the participant is willing to take?
+
+## Neutral interview guides
+
+### Parents and families
+
+Begin with: “Tell me about the last time you chose or looked for a story, book, activity, or reading resource for a child.” Follow with: “Where did you look? What did you choose? What made the process easy or difficult? What did the child do? What did you do when the first option did not work?”
+
+Do not begin with “Do you need more culturally relevant books?” Instead ask: “How do you decide whether a story is a good fit for your child?” and “What makes a story worth reading again?” After the concept is shown, offer a short task such as finding and starting one story. Measure completion, adult participation, child reaction, and return use.
+
+### Schools and educators
+
+Begin with: “Walk me through the last time you needed a story, reading activity, or cultural resource for a class.” Follow with: “What sources did you use? How much preparation was required? Who approved it? What happened when learners used it? What did you do when the resource was not suitable?”
+
+Do not begin with “Do you need more Caribbean resources?” Instead ask: “What makes you adopt one resource and reject another?” and “Which resource did you use most recently that you would recommend to a colleague?” After the concept is shown, ask the educator to complete a real search and decide whether to use or share the result.
+
+### Institutions
+
+Begin with: “Tell me about the last literacy, cultural, library, or educational-resource programme your organisation funded, procured, delivered, or supported.” Follow with: “What need triggered it? Who approved it? What did delivery involve? What was measured? What was difficult to sustain?”
+
+Do not begin with “Would your institution license Island Tales?” Instead ask: “How do new partners enter this type of programme?” and “What evidence and approvals are required before a new resource can be included?” After the concept is shown, ask for a specific pilot route, programme owner, procurement path, or referral.
+
+### Caribbean authors
+
+Begin with: “Tell me about the last children's story or book project you took from idea to draft, production, publication, or distribution.” Follow with: “Which steps did you handle yourself? Where did you get help? What happened when you tried to reach readers, schools, bookstores, or publishers? What would you do differently next time?”
+
+Do not begin with “Is publishing confusing or expensive?” Instead ask: “Which part of the process required the most time, money, or uncertainty?” and “What support have you paid for or trusted?” After the concept is shown, ask whether the author would take a defined next step such as a rights conversation, manuscript review, service quote, pilot submission, or audience referral.
+
+## Sampling plan
+
+Recruit participants who recently performed the behavior being studied. Avoid recruiting only friends, existing subscribers, or people who already identify as Caribbean-literature advocates.
+
+| Group | Initial target | Minimum diversity to seek | Primary evidence |
+|---|---:|---|---|
+| Parents and families | 8–10 | Different caregiver roles, child ages, territories or diaspora locations, and connectivity conditions. | Recent resource-selection story plus prototype task. |
+| Schools and educators | 8–10 | Teachers, literacy leads, librarians, and school leaders from at least two contexts. | Recent classroom-resource decision plus real-use task. |
+| Institutions | 5–6 | Ministry/NGO/library/cultural/funder perspectives. | Recent programme/procurement decision plus named next step. |
+| Caribbean authors | 8–10 | Emerging and established authors/illustrators, region-based and diaspora. | Recent project journey plus service or rights decision. |
+
+The first round should aim for approximately 29–36 participants. Continue recruiting until the major patterns stabilize or until a segment clearly lacks urgency.
+
+## Evidence-capture template
+
+| Field | Record |
+|---|---|
+| Participant code and segment | Do not record unnecessary personal information. |
+| Recent event described | What happened, when, and in what context? |
+| Current workaround | What did the participant actually do? |
+| Cost or consequence | Time, money, access, quality, stress, missed reach, or delay. |
+| Exact quote | Preserve wording; separate quote from researcher interpretation. |
+| Observed behavior | What did the participant actually start, complete, share, submit, or reject? |
+| Decision authority | User, recommender, buyer, funder, rights-holder, or influencer. |
+| Alternative considered | What would the participant use instead? |
+| Next commitment | Interview only, prototype, referral, pilot, submission, rights discussion, or payment/funding discussion. |
+| Confidence rating | High, medium, or low based on recency and behavioral evidence. |
+
+## Decision rules
+
+| Finding | Interpretation |
+|---|---|
+| Participant describes a recent recurring problem and a costly workaround. | Strong problem signal. |
+| Participant describes a problem but has no recent example or consequence. | Weak or theoretical signal. |
+| Participant likes the concept but will not try, share, submit, refer, or discuss budget. | Interest, not validated demand. |
+| Participant repeats the behavior without prompting. | Stronger product or workflow signal. |
+| Participant introduces a decision-maker or partner. | Strong relationship and distribution signal. |
+| Participant pays, funds, procures, licenses, or signs a defined pilot. | Strongest commercial or institutional signal. |
+
+## Research ethics and safeguarding
+
+Obtain informed consent. Do not collect children's identifying information unless necessary and explicitly approved. If children participate in prototype testing, obtain caregiver or institutional permission, minimize data collection, avoid public profiles by default, and use age-appropriate activities. Do not record or publish a child's voice, image, story response, or reading data without permission.
+
+---
+
+# Current evidence and status
+
+## What external evidence supports
+
+The OECS/USAID Early Learners Programme states that it recognized a “tremendous shortage” of culturally relevant books in OECS schools and reports printing and distributing almost 51,000 locally or regionally authored books.[3] The OECS Global Digital Library provides an important alternative, with more than 6,000 books in 83 languages, while also warning that online learning does not automatically widen access.[6] The Jamaican home-literacy study reports that more than 75% of respondents strongly agreed that parents could help children at home, while direct formal literacy practices were less common and shaped by home context.[5] Anansesem and Caribbean Book Blog sources describe author discoverability, professional-resource, distribution, and audience-reach challenges.[1] [4]
+
+These sources justify the ecosystem assumption as a serious research question. They do not demonstrate that every segment experiences the same problem, that Island Tales is the preferred solution, or that any segment will pay.
+
+## Completion status
+
+| Pill | Status | What is complete | What must still be validated directly |
 |---|---|---|---|
-| 10–15 families | One shared Caribbean story per week. | Caregiver consent, two reading sessions per week, brief feedback. | Completed shared-reading sessions per household and week-4 retention. |
-| 3–5 teachers or one small school | One curated story and prompt per week. | Use at least two stories with real learners. | Teacher repeat use and learner story completion. |
-| One library, NGO, ministry unit, or cultural institution | Test equitable distribution and referral. | Named pilot owner, distribution channel, and review meeting. | Referrals, access rate, and willingness to extend the pilot. |
-| 5–8 authors/illustrators | Test audience reach and creator value. | Content permission or licensed pilot terms. | Submissions, author referrals, and qualified reader engagement. |
+| Customer Personas | Draft hypotheses complete. | Four segment profiles with jobs, behaviors, decision authority, pains, gains, and evidence labels. | Interview evidence and observed differences within each segment. |
+| Empathy Map | Hypothesis maps complete. | Neutral “says/thinks/does/feels” structure and evidence rules. | Direct quotes, observed behaviors, influences, pains, and gains. |
+| Value Proposition Canvas | Four test canvases complete. | Customer jobs, pains, gains, products, pain relievers, and gain creators for each segment. | Which pains and gains are urgent enough to trigger behavior or payment. |
+| Business Model Canvas | Ecosystem hypothesis complete. | Segments, value propositions, channels, relationships, revenue, resources, activities, partners, and costs. | First wedge segment, buyer, funding route, rights model, and sustainable economics. |
+| User Research | Field-ready plan complete. | Neutral interview guides, sampling, evidence capture, prototype tasks, decision rules, and safeguards. | Actual interviews, observed use, referrals, submissions, pilots, and payment/funding commitments. |
 
-## Instrumentation
+## Recommended sequence
 
-Track the smallest useful set of events: story opened, narration started, narration completed, question answered, story completed, share clicked, caregiver or teacher role selected, author profile viewed, and return visit. Do not treat page views or newsletter signups alone as proof of learning or product-market fit.
-
-Collect one qualitative question after each session: “What almost stopped you from finishing?” At the end of week four, ask: “What would you do if Island Tales disappeared tomorrow?” Strong answers describe a workaround that is worse, not merely that the participant would be disappointed.
-
-## Commitment ladder
-
-Use a ladder that becomes progressively more costly:
-
-| Level | Commitment | Interpretation |
-|---:|---|---|
-| 1 | Gives a detailed interview and names a recent problem. | Problem awareness. |
-| 2 | Completes a real prototype task. | Usability and relevance. |
-| 3 | Returns, shares, or uses the resource in a real setting. | Behavioral value. |
-| 4 | Introduces a school, library, author, or family group. | Referral value. |
-| 5 | Contributes content, signs a pilot letter, or provides distribution access. | Partnership value. |
-| 6 | Pays, sponsors, procures, or secures grant funding. | Economic validation. |
-
-The initial goal is not to maximize revenue immediately. It is to move at least one stakeholder in each segment from Level 1 to Level 3, and at least one institution and one author from Level 3 to Level 5. No full feature expansion should be approved without these commitments.
-
-## Activity 5 conclusion
-
-The pilot and commitment test is complete as an execution-ready validation plan. It is not yet evidence of customer willingness to pay. The next decision should depend on observed retention, real classroom or home use, author participation, institutional ownership, and a credible funding route.
-
----
-
-# Final validation decision
-
-## Proceed with a constrained pilot
-
-Proceed because the problem is supported by regional institutional action, family-literacy research, first-person author/platform accounts, and current alternatives that demonstrate both demand and fragmentation.[1] [3] [4] [5] [6] [7] [8]
-
-Do not yet proceed with a large build, subscription launch, or broad content acquisition. The evidence is not sufficient to claim that families will pay, schools will adopt, or authors will license content at scale. The next milestone is a **behavioral pilot** with explicit thresholds.
-
-## Recommended product focus for the pilot
-
-1. **Curated Caribbean discovery:** Start with a small, high-quality collection organized by age, theme, territory, and reading purpose.
-2. **Shared-reading support:** Add narration, short prompts, and a simple adult guide that complements rather than replaces the teacher.
-3. **Low-bandwidth resilience:** Test compressed assets, simple pages, and an offline or print-companion fallback where possible.
-4. **Teacher and institution workflow:** Provide a one-page guide, shareable story links, and a small collection that can be used without training.
-5. **Author visibility:** Include clear attribution, author pages, referral tracking, and a transparent rights and compensation conversation.
-
-## Evidence gaps that must be closed next
-
-The current report does not contain direct interviews with the specific target families, schools, institutions, or authors who would adopt Island Tales. It also does not contain observed prototype behavior, a signed pilot, a price test, or validated learning outcomes. These are not minor omissions; they are the next discovery work required to convert a validated problem into validated demand.
+Run User Research before treating the personas, empathy maps, value propositions, or Business Model Canvas as final. Begin with the segment that can be recruited and observed most quickly, but do not assume that the easiest segment is the strongest commercial segment. After the first research round, update all five pills using actual quotes and behaviors, then choose one initial wedge—family, school, institution, or author service—for a constrained pilot.
 
 ## References
 
 [1]: https://independentpublishersguild.com/IPG/IPG/Latest/Blogs/IPG/Posts/The-importance-of-Caribbean-children-s-literature.aspx “The Importance of Caribbean Children’s Literature — Independent Publishers Guild / Anansesem”
-
-[2]: https://gem-report-2020.unesco.org/latin-america-and-the-caribbean/ “Latin America and the Caribbean — UNESCO Global Education Monitoring Report 2020”
 
 [3]: https://pressroom.oecs.int/oecs--usaid-early-learners-programme-advances-culturally-relevant-content “OECS / USAID Early Learners Programme advances culturally relevant content”
 
@@ -259,7 +371,5 @@ The current report does not contain direct interviews with the specific target f
 [5]: https://caribed.scholasticahq.com/article/143662-it-starts-at-home-home-language-and-literacy-practices-in-jamaica “It Starts at Home: Home Language and Literacy Practices in Jamaica — Caribbean Journal of Education and Development”
 
 [6]: https://pressroom.oecs.int/oecs-commission-launches-global-digital-library “OECS Commission Launches Global Digital Library”
-
-[7]: https://www.youtube.com/watch?v=DA0biYsCITw “OECS/USAID Early Learners Programme balance and integrated approach to reading”
 
 [8]: https://www.caribbeanreads.com/books/ “The Best in Caribbean Books from CaribbeanReads”
