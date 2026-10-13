@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#07111f" />
+  <meta name="description" content="SignalFlow — an explainable AI copilot for AML alert triage and investigation." />
+  <title>SignalFlow · AI investigation copilot</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Primary navigation">
+      <div class="brand-block">
+        <div class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></div>
+        <div><strong>signal<span>flow</span></strong><small>AI investigation layer</small></div>
+      </div>
+      <div class="tenant-switcher"><span class="tenant-dot"></span><div><small>Workspace</small><b>Meridian Finance</b></div><span class="chevron">⌄</span></div>
+      <nav class="nav-stack">
+        <button class="nav-item active" data-view="queue"><span class="nav-icon">◈</span>Review queue <em>12</em></button>
+        <button class="nav-item" data-view="insights"><span class="nav-icon">◒</span>Risk insights</button>
+        <button class="nav-item" data-view="playbook"><span class="nav-icon">◇</span>Playbooks</button>
+        <button class="nav-item" data-view="audit"><span class="nav-icon">◌</span>Audit trail</button>
+      </nav>
+      <div class="sidebar-spacer"></div>
+      <div class="guardrail-card"><div class="guardrail-icon">✓</div><div><b>Human gate active</b><p>AI can recommend. Analysts decide.</p></div></div>
+      <div class="profile"><div class="avatar">AR</div><div><b>Amara Reyes</b><small>Senior investigator</small></div><span class="more">•••</span></div>
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar">
+        <div><p class="eyebrow">MONDAY · 13 OCT 2026 <span class="live-dot"></span> LIVE MONITORING</p><h1>Good morning, Amara.</h1></div>
+        <div class="topbar-actions"><span class="synthetic-pill"><span></span> Synthetic demo data</span><button class="icon-button" aria-label="Notifications">♢<i></i></button><button class="avatar avatar-small">AR</button></div>
+      </header>
+
+      <section id="view-queue" class="view active-view">
+        <div class="hero-strip"><div><span class="section-kicker">CONTROL ROOM</span><h2>Resolve the signal, not the noise.</h2><p>SignalFlow connects alerts, customer context and policy logic into one reviewable investigation.</p></div><div class="hero-orbit"><div class="orbit-core">AI</div><span class="orbit-tag tag-one">Context</span><span class="orbit-tag tag-two">Policy</span><span class="orbit-tag tag-three">Network</span></div></div>
+
+        <div class="metric-grid" aria-label="Queue metrics">
+          <article class="metric-card"><div class="metric-top"><span>Open alerts</span><span class="metric-icon amber">◈</span></div><strong>12</strong><small><b class="trend-up">↓ 18%</b> vs last Monday</small></article>
+          <article class="metric-card"><div class="metric-top"><span>AI triage coverage</span><span class="metric-icon cyan">✦</span></div><strong>84<span class="unit">%</span></strong><small><b class="trend-up">↑ 11%</b> since rollout</small></article>
+          <article class="metric-card"><div class="metric-top"><span>Median time to decision</span><span class="metric-icon purple">◷</span></div><strong>18<span class="unit">m</span></strong><small><b class="trend-up">↓ 42%</b> vs baseline</small></article>
+          <article class="metric-card"><div class="metric-top"><span>Cases needing you</span><span class="metric-icon red">!</span></div><strong>04</strong><small><b class="trend-flat">2 high confidence</b> · human gate</small></article>
+        </div>
+
+        <div class="content-grid">
+          <section class="panel queue-panel">
+            <div class="panel-header"><div><span class="section-kicker">PRIORITIZED QUEUE</span><h3>Alerts needing review</h3></div><div class="panel-actions"><button class="filter-button">All risk <span>⌄</span></button><button class="filter-button">Newest <span>⌄</span></button></div></div>
+            <div class="queue-table" role="table" aria-label="AML alert queue">
+              <div class="queue-row queue-head" role="row"><span>CASE</span><span>TRIGGER</span><span>RISK</span><span>STATUS</span><span></span></div>
+              <div id="case-list"></div>
+            </div>
+          </section>
+          <aside class="panel pulse-panel"><div class="panel-header"><div><span class="section-kicker">SYSTEM PULSE</span><h3>Today at a glance</h3></div><span class="status-chip good">Healthy</span></div><div class="pulse-chart"><div class="chart-y"><span>100</span><span>50</span><span>0</span></div><div class="bars" aria-label="Alert volume for the last seven days"><i style="height:34%"></i><i style="height:46%"></i><i style="height:39%"></i><i style="height:66%"></i><i style="height:50%"></i><i style="height:78%"></i><i class="today" style="height:45%"></i></div><div class="chart-x"><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span><span>Mon</span></div></div><div class="pulse-note"><span class="pulse-line"></span><p><b>Alert volume is down 22%</b><br />after the latest peer-profile tuning.</p></div><div class="source-note"><span class="source-dot"></span>All values are synthetic for demonstration</div></aside>
+        </div>
+      </section>
+
+      <section id="view-insights" class="view"><div class="empty-view"><span class="empty-icon">◒</span><span class="section-kicker">RISK INSIGHTS</span><h2>Patterns, before they become cases.</h2><p>Cross-case trends and peer-group drift will appear here as the investigation graph learns.</p><button class="secondary-button" data-view="queue">Return to queue</button></div></section>
+      <section id="view-playbook" class="view"><div class="empty-view"><span class="empty-icon">◇</span><span class="section-kicker">PLAYBOOKS</span><h2>Policy-aware workflows.</h2><p>Make the next best action repeatable, explainable and easy to audit.</p><button class="secondary-button" data-view="queue">Return to queue</button></div></section>
+      <section id="view-audit" class="view"><div class="empty-view"><span class="empty-icon">◌</span><span class="section-kicker">AUDIT TRAIL</span><h2>Every recommendation leaves a trail.</h2><p>Decisions, evidence and human overrides are recorded as first-class events.</p><button class="secondary-button" data-view="queue">Return to queue</button></div></section>
+    </main>
+  </div>
+
+  <div id="case-drawer" class="drawer-backdrop" aria-hidden="true">
+    <aside class="case-drawer" aria-label="Case investigation workspace"><button id="close-drawer" class="close-drawer" aria-label="Close case">×</button><div id="drawer-content"></div></aside>
+  </div>
+  <div id="toast" class="toast" role="status"></div>
+  <script src="app.js"></script>
+</body>
+</html>
