@@ -1,90 +1,70 @@
-# SignalFlow — explainable AI for AML investigations
+# SignalFlow — synthetic AML investigation copilot demo
 
-**Hackathon concept for Azentio.ai Build Labs 2026**
+**Project demo:** https://vjoycelyn.github.io/Island-Tales/azentio-signalflow/
+**Source:** https://github.com/VJoycelyn/Island-Tales/tree/main/azentio-signalflow
+**Current event context:** Global AI Hackathon by Geek Room. The exact problem statement/track must be selected and incorporated after the official release; see [`HACKATHON_READINESS.md`](./HACKATHON_READINESS.md) and [`GLOBAL_AI_HACKATHON_SUBMISSION.md`](./GLOBAL_AI_HACKATHON_SUBMISSION.md).
 
-SignalFlow is an investigation layer for AML operations. It turns a noisy alert into a reviewable case by combining customer context, peer behavior, transaction patterns, and policy checks, then produces a concise recommendation with evidence and a named human approval gate.
+SignalFlow is a fictional-data prototype that helps an AML investigator review an alert, inspect supporting evidence, and see a suggested next review step. It demonstrates an evidence-first interface and a human approval gate. It is not an official Azentio product, an operational AML platform, or a validated compliance decision service.
 
-> SignalFlow does not decide that a customer is suspicious. It helps an investigator decide what to review next, why it matters, and what evidence is still missing.
+## Current demo
 
-## Why this wedge
+The public GitHub Pages site is a static deployment. It runs locally in the browser against five fictional cases and deterministic demo rules; it does not contact a model service. It now has a working risk filter and queue sort, case workspace, staged investigation display, case-grounded deterministic demo Q&A, human escalate/review actions, a risk summary based on the sample cases, an illustrative playbook, and a session-only in-memory event view. The event view is cleared when the page is refreshed and is not an immutable audit trail.
 
-The published hackathon brief asks for a working AI-powered solution to a real Azentio problem and evaluates solution quality, technical implementation, innovation, business relevance, and functional demonstration. The specific problem statements are still marked “revealing soon”, so this prototype targets a public Azentio workflow rather than claiming access to private challenge data.
-
-Azentio publicly describes AMLOCK as an AI-powered financial crime and compliance platform spanning KYC, screening, monitoring, risk management, investigations, and regulatory reporting. Its transaction-monitoring materials emphasize reducing false positives and streamlining investigations. SignalFlow is a focused, additive copilot layer for the investigation moment: it makes the reasoning visible, preserves auditability, and keeps the analyst in control.
-
-## Demo flow
-
-1. Open the **Review queue** and select `ALT-24081 — Nadia Rahman`.
-2. Show the evidence cards: velocity spike, new beneficiary cluster, and cross-border corridor.
-3. Click **Run explainable investigation**. The four-agent trace animates through context, pattern, policy, and decision.
-4. Point out the recommendation: **Escalate for enhanced due diligence**. The rationale is short, evidence-linked, and explicitly not an automatic finding.
-5. Ask the Copilot: “Why is this alert high risk?” The answer references only the visible case evidence.
-6. Click **Escalate case** to show the human gate and audit-friendly disposition.
-7. Return to the queue and open the lower-scoring case to show that the same workflow can recommend closure or a request for more context.
-
-## Architecture
-
-```text
-Synthetic alert / AMLOCK event
-          |
-          v
-  Case normalizer + evidence store
-          |
-          v
-  Agent graph
-  ├── Context agent: customer and peer profile
-  ├── Pattern agent: velocity, graph and corridor signals
-  ├── Policy agent: rule and jurisdiction checks
-  └── Decision agent: explanation + next best action
-          |
-          v
-  Analyst workspace → human disposition → immutable audit event
-```
-
-The browser prototype uses synthetic, embedded cases so it is safe to demo without customer data. When run through `server.mjs` with `OPENAI_API_KEY`, the same flow can call an OpenAI-compatible model for the final structured recommendation. If no key is configured, the transparent local fallback runs deterministically; the demo remains functional offline.
-
-## AI and safety disclosure
-
-- **Model role:** summarize evidence and recommend a next review action, not approve/decline a customer or file a regulatory report.
-- **Grounding:** the prompt passes the selected synthetic case only. The model is instructed not to invent facts and to state uncertainty.
-- **Human-in-the-loop:** every path ends in a named analyst action: escalate, request context, or mark reviewed.
-- **Data boundary:** all included records are fictional. Do not upload Azentio or customer-confidential information to public AI services.
-- **Auditability:** the UI exposes the evidence, agent stages, recommendation, confidence, and resulting disposition.
-- **Production path:** replace the synthetic case adapter with AMLOCK event/API contracts, add tenant-scoped storage, RBAC, policy versioning, model evaluation, PII redaction, and signed audit events.
+The optional model-backed endpoint is available only when running the Node server locally with an explicitly supplied API key. That endpoint accepts only a server-owned synthetic case ID and ignores caller-supplied case facts. It makes one structured-output model request for a draft recommendation. The four visible investigation stages are a sequence visualization; they are not four separate AI agents. The Q&A widget is deterministic in both the public site and local demo.
 
 ## Run locally
+
+Requires Node.js 18 or newer. There are no installed npm runtime dependencies.
 
 ```bash
 cd azentio-signalflow
 npm run dev
-# open http://localhost:4173
+# open http://127.0.0.1:4173
 ```
 
-Optional model-backed mode:
+Run the automated HTTP/security smoke tests with. They exercise the model path against a local mock provider and make no paid external model call or use of a real API key:
+
+```bash
+npm test
+```
+
+For optional model-backed investigation, provide an approved OpenAI-compatible key in the environment before starting the server:
 
 ```bash
 OPENAI_API_KEY=your_key OPENAI_MODEL=gpt-4o-mini npm run dev
 ```
 
-Never commit keys. The app still works without one.
+The key is read by the local server and is never included in static page assets. The demo server binds to loopback (`127.0.0.1`). Do not expose it to a public network. Never commit API keys or use real customer/production data.
 
-## Files
+## Technology and AI disclosure
 
-- `index.html` — dashboard and case workspace markup.
-- `style.css` — responsive dark control-room UI.
-- `app.js` — queue state, investigation animation, local fallback, Copilot, and human actions.
-- `server.mjs` — static server and optional model-backed `/api/investigate` endpoint.
-- `package.json` — zero-dependency Node run script.
-- `HACKATHON_SUBMISSION.md` — concise submission narrative and judging alignment.
-- `DEMO_SCRIPT.md` — 3-minute presenter script.
+The interface uses HTML, CSS, and vanilla JavaScript. The optional local service uses Node.js built-in HTTP and file-system modules. The AI adapter accepts an OpenAI-compatible chat-completions endpoint; `gpt-4o-mini` is the default model name if a key is configured. If there is no key, if a model request fails, or if a response fails validation, the server uses deterministic fictional-case rules. The static GitHub Pages demo always uses the deterministic fallback.
 
-## Important positioning
+Manus AI was used as a coding assistant to develop the prototype. The page loads Manrope and DM Mono using Google Fonts. The Node runtime has no third-party package dependency. Update the disclosure if additional team members use other AI models, agents, APIs, or coding tools for the final submission.
 
-This is a hackathon prototype and is **not an official Azentio product**. It uses public product context and synthetic demo data. Claims about business impact are hypotheses to validate with Azentio domain experts and controlled evaluation data; the demo does not claim production readiness or regulatory compliance.
+## Safety and limitations
 
-## Sources
+All case names, amounts, scores, evidence, timelines, metrics, and charts are synthetic. Risk scores are prioritization examples, not findings of misconduct. Model text is a draft suggestion only. Human users retain the final decision. The session log exists only in browser memory and does not write to an AML source system. The optional server is a local hackathon demo and lacks production SSO, tenant isolation, durable storage, enterprise audit, and deployment controls.
 
-- Hackathon brief: https://hackculture.io/hackathons/azentio-ai-build-labs
-- Azentio risk and compliance portfolio: https://www.azentio.com/risk-compliance
-- Azentio transaction monitoring: https://www.azentio.com/risk-compliance/transaction-monitoring
-- Azentio AI-powered AMLOCK announcement: https://www.azentio.com/insights/news-and-announcements/ai-powered-amlock-aml-solution-for-compliance
+Do not enter or upload real customer, Azentio, or other confidential data into the public site or an unapproved model service. Any production use would require approved source interfaces, identity/authorization, retention and data-residency decisions, security review, model governance, evaluation, and AML-owner approval.
+
+## Hackathon materials
+
+- [`GLOBAL_AI_HACKATHON_SUBMISSION.md`](./GLOBAL_AI_HACKATHON_SUBMISSION.md) — draft description, problem framing, and AI/tool disclosure; add the exact released prompt and actual team contributions before submitting.
+- [`HACKATHON_READINESS.md`](./HACKATHON_READINESS.md) — requirement mapping, open eligibility points, and official sources.
+- [`HACKATHON_SUBMISSION.md`](./HACKATHON_SUBMISSION.md) — original Azentio Build Labs concept narrative, retained as provenance and not a Global AI final submission.
+- [`DEMO_SCRIPT.md`](./DEMO_SCRIPT.md) — concise, accurate demo walkthrough.
+- [`proposal/AML_Architecture_Tech_Stack_Proposal.md`](./proposal/AML_Architecture_Tech_Stack_Proposal.md) — production architecture proposal; not the running implementation.
+
+## Source structure
+
+- `index.html` — dashboard, responsive case queue, views, and accessible case dialog.
+- `style.css` — dark control-room presentation, mobile navigation, focus states, and reduced-motion behavior.
+- `app.js` — fictional case fixture rendering, per-case run state, deterministic fallback, demo Q&A, filters, dispositions, and session events.
+- `server.mjs` — loopback-only static server and optional synthetic-ID model endpoint with bounded requests and allowlisted files.
+- `tests/server.test.mjs` — dependency-free API and static-server tests.
+- `manus-routes.json` — static page route declaration.
+
+## Build and reuse note
+
+The initial SignalFlow prototype was built for the separate Azentio.ai Build Labs project in October 2026, before the Global AI Hackathon problem statement release. The Global event permits reusable components but expects the core project to be developed during the hackathon. Disclose this history, confirm eligibility with the organizers, and make a substantive adaptation to the released Global challenge before submission. Do not claim the existing prototype was newly created after the challenge statement became available.

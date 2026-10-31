@@ -1,51 +1,45 @@
-# SignalFlow — 3-minute demo script
+# SignalFlow — accurate 3-minute demo script
 
-## 0:00–0:25 — Frame the problem
+**Important:** This is a general walkthrough. Add a clear reference to the selected Global AI Hackathon problem statement after it is released, and materially adapt the demo to that challenge. Do not use this as proof of a problem-statement fit before then.
 
-“AML systems are good at surfacing signals. The operational bottleneck is what happens next: an analyst has to reconstruct context, explain the alert, and decide whether the case is worth escalating. SignalFlow is an explainable investigation layer. It does not replace the analyst; it compresses the path to a defensible next action.”
+## 0:00–0:25 — Frame the concept
 
-Keep the dashboard visible. Point to the metric cards, especially **18m median time to decision** and the explicit **Human gate active** label. Clarify that metrics are synthetic demo values.
+“SignalFlow is a prototype for organizing synthetic AML alert evidence and preparing a human-reviewed next step. The exact Global AI challenge fit is pending the event's released prompt. The public demo uses fictional data only and does not connect to a bank or an AML source system.”
 
-## 0:25–1:00 — Pick a real-looking case
+Point out **Synthetic demo data** and the sample-only metric labels. Do not describe the dashboard metrics as production results.
 
-“Let’s open ALT-24081. The alert fired because of rapid movement of funds. Instead of asking the analyst to interpret a single score, SignalFlow presents three evidence threads: a velocity spike, a new beneficiary cluster, and a cross-border corridor.”
+## 0:25–1:00 — Inspect a sample case
 
-Click `Nadia Rahman`. Point to the 79/100 score and say: “This is a prioritization signal, not a finding of misconduct. The human gate is visible before we run anything.”
+Open `ALT-24081` and say: “This is a fictional case with a rapid-movement trigger. The workspace presents a synthetic velocity spike, new beneficiary cluster, and cross-border corridor. The 79/100 score is a prioritization example, not evidence of misconduct.”
 
-## 1:00–1:55 — Run the agent graph
+## 1:00–1:50 — Run the workflow
 
-Click **Run explainable investigation**.
+Click **Run explainable investigation**. Point to the four visible steps and say: “These stages make the demo sequence visible. They are not four separate agents. On the public static site, deterministic rules generate the result. If the local server is configured with an approved model key, one structured model call can return the draft recommendation.”
 
-“As the investigation runs, four specialized steps make the reasoning inspectable: context, pattern, policy, and decision. This is intentionally not one opaque chatbot response.”
+Read the result and emphasize: “This is a suggestion only. An analyst owns every disposition.”
 
-When the result appears:
+## 1:50–2:15 — Ask a case-grounded demo question
 
-“The recommendation is to escalate for enhanced due diligence. The rationale stays short and links back to the visible evidence. The model is not allowed to invent customer facts, and the final action still belongs to the analyst.”
+Ask `Why is this alert high risk?` and note: “The Q&A in this prototype is deterministic and uses the fictional case fixture. It is not a live AI chat.”
 
-## 1:55–2:25 — Ask a grounded question
+## 2:15–2:45 — Record a human action
 
-In the Copilot field, type: `Why is this alert high risk?`
+Click **Escalate case** or **Mark reviewed**. Say: “This choice changes the visible demo state and adds a temporary event to the browser-session log. It does not update a case-management system or create a durable audit record.”
 
-“The Copilot answers from this case, not from a generic knowledge base. It explains the score and reminds us that a risk score is not proof of misconduct.”
+Open **Audit trail** to show the recorded event, then **Risk insights** and **Playbooks** to show that both are derived from the included fictional examples.
 
-Optionally ask: `What is the next action?` to show a source-of-funds recommendation.
+## 2:45–3:00 — Close honestly
 
-## 2:25–2:45 — Close the loop
+“The repo includes the working static demo, the optional local model endpoint, and automated HTTP/security checks. The existing prototype was originally created for Azentio.ai Build Labs. For Global AI, we will confirm reuse eligibility and adapt the core solution to the official problem statement before presenting a final submission.”
 
-Click **Escalate case**.
+## Questions to anticipate
 
-“The action is explicit, reversible in the prototype, and ready to become an audit event. The analyst—not the model—owns the disposition.”
+**Is the public demo using an LLM?** No. The public GitHub Pages build uses deterministic synthetic rules. The repository's optional loopback-only local server can call one OpenAI-compatible model when an operator supplies a key. Invalid or unavailable model results fall back to the rules.
 
-## 2:45–3:00 — End with the production path
+**Are the four steps separate agents?** No. They are visible workflow stages. The optional local model path makes one final structured-output call.
 
-“SignalFlow can sit over an existing AMLOCK alert and case workflow. The synthetic adapter is replaceable with event APIs, tenant-scoped context, policy versions, and signed audit events. The first pilot would measure time to disposition, evidence-linked rationale, and avoidable escalations. This is a thin, safe layer designed to make intelligence operational.”
+**Are the cases real?** No. Names, amounts, scores, evidence, and events are fictional.
 
-## Judge questions to anticipate
+**Does a recommendation take action?** No. A human button changes only transient local demo state. There is no connection to a bank, customer account, regulator, or case system.
 
-**Is this an official Azentio product?** No. It is a hackathon concept built from public Azentio product context and synthetic data.
-
-**Is the AI real?** The UI includes an offline deterministic investigation fallback so the demo is always runnable. Running `npm run dev` with `OPENAI_API_KEY` enables the optional structured model endpoint. The architecture keeps the model constrained and the human decision mandatory.
-
-**What happens with false positives?** SignalFlow does not suppress alerts by itself. It makes the evidence and uncertainty visible so the analyst can close low-confidence cases with a documented rationale, while high-confidence cases remain in the human review lane.
-
-**What is the next build step?** Connect the case adapter to approved AMLOCK events and run a controlled evaluation with redacted historical cases and domain-expert labels.
+**Does this already satisfy the Global challenge?** That cannot be claimed until the official problem statement is available, selected, and reflected in a substantive project adaptation.
