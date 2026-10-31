@@ -1,45 +1,43 @@
 # SignalFlow — accurate 3-minute demo script
 
-**Important:** This is a general walkthrough. Add a clear reference to the selected Global AI Hackathon problem statement after it is released, and materially adapt the demo to that challenge. Do not use this as proof of a problem-statement fit before then.
+**Before recording:** This is a general product walkthrough, not a claim of fit to an unreleased Global AI challenge. After the official prompt is published, name the selected challenge and show the specific adaptation. Use only fictional sample values.
 
-## 0:00–0:25 — Frame the concept
+## 0:00–0:20 — Frame the concept
 
-“SignalFlow is a prototype for organizing synthetic AML alert evidence and preparing a human-reviewed next step. The exact Global AI challenge fit is pending the event's released prompt. The public demo uses fictional data only and does not connect to a bank or an AML source system.”
+“SignalFlow is a prototype for organizing synthetic AML alert evidence and preparing a human-reviewed next step. The exact Global AI challenge fit is pending the official prompt. This public demo uses fictional data and does not connect to a bank or AML source system.”
 
-Point out **Synthetic demo data** and the sample-only metric labels. Do not describe the dashboard metrics as production results.
+Point out the synthetic-data label and illustrative metrics. Do not present the values as production results.
 
-## 0:25–1:00 — Inspect a sample case
+## 0:20–0:50 — Inspect a sample case
 
-Open `ALT-24081` and say: “This is a fictional case with a rapid-movement trigger. The workspace presents a synthetic velocity spike, new beneficiary cluster, and cross-border corridor. The 79/100 score is a prioritization example, not evidence of misconduct.”
+Open `ALT-24081`: “This fictional case shows a rapid-movement trigger, a synthetic velocity pattern, a new-beneficiary cluster, and a cross-border corridor. Its 79/100 score is a prioritization example, not evidence of misconduct.”
 
-## 1:00–1:50 — Run the workflow
+## 0:50–1:30 — Run the investigation
 
-Click **Run explainable investigation**. Point to the four visible steps and say: “These stages make the demo sequence visible. They are not four separate agents. On the public static site, deterministic rules generate the result. If the local server is configured with an approved model key, one structured model call can return the draft recommendation.”
+Click **Run explainable investigation**. Explain: “The four visible stages make the sequence understandable; they are not separate agents. On the public static page, deterministic rules generate the recommendation. The optional local server can make one structured model call on a fixed built-in sample if an approved key is configured.”
 
-Read the result and emphasize: “This is a suggestion only. An analyst owns every disposition.”
+Emphasize that the recommendation is a review prompt and the human analyst owns the decision.
 
-## 1:50–2:15 — Ask a case-grounded demo question
+## 1:30–1:55 — Record a human action
 
-Ask `Why is this alert high risk?` and note: “The Q&A in this prototype is deterministic and uses the fictional case fixture. It is not a live AI chat.”
+Choose **Escalate case** or **Mark reviewed**, then show **Audit trail**. Explain: “This changes only local demo state and adds a temporary browser-session event. It does not update a case system or create a durable audit record.”
 
-## 2:15–2:45 — Record a human action
+## 1:55–2:40 — Demonstrate data input and updates
 
-Click **Escalate case** or **Mark reviewed**. Say: “This choice changes the visible demo state and adds a temporary event to the browser-session log. It does not update a case-management system or create a durable audit record.”
+Open **Demo data**. Add an alias such as `Sample Merchant 07`, a two-letter jurisdiction, a listed synthetic trigger, a whole-number score, a sample amount, and a three-letter currency. Save it and show the new queue row, updated case count, and updated risk insights. Edit the score so its risk band changes; reload to show the browser-only sample persists. Explain that custom entries never leave the browser and are not sent to the model endpoint. Remove the test entry and use **Restore initial sample** before handing the demo to another reviewer.
 
-Open **Audit trail** to show the recorded event, then **Risk insights** and **Playbooks** to show that both are derived from the included fictional examples.
+## 2:40–3:00 — Close honestly
 
-## 2:45–3:00 — Close honestly
-
-“The repo includes the working static demo, the optional local model endpoint, and automated HTTP/security checks. The existing prototype was originally created for Azentio.ai Build Labs. For Global AI, we will confirm reuse eligibility and adapt the core solution to the official problem statement before presenting a final submission.”
+“The repo includes the public static demo, browser-only synthetic data management, an optional local model endpoint, and automated HTTP/security tests. The prototype’s prior-work history is disclosed. We will confirm eligibility with organizers and make a substantive adaptation to the selected Global challenge before final submission.”
 
 ## Questions to anticipate
 
-**Is the public demo using an LLM?** No. The public GitHub Pages build uses deterministic synthetic rules. The repository's optional loopback-only local server can call one OpenAI-compatible model when an operator supplies a key. Invalid or unavailable model results fall back to the rules.
+**Is the public demo using an LLM?** No. GitHub Pages uses deterministic synthetic rules. The repository’s optional loopback-only Node server can make one OpenAI-compatible model call on a fixed built-in case when an operator supplies a key.
 
-**Are the four steps separate agents?** No. They are visible workflow stages. The optional local model path makes one final structured-output call.
+**Are the four steps separate agents?** No. They are presentation stages. The optional local model path makes one final structured-output call.
 
-**Are the cases real?** No. Names, amounts, scores, evidence, and events are fictional.
+**Are the cases real?** No. Built-in examples and user-entered sample aliases, amounts, scores, and triggers are fictional. Custom entries persist only in browser localStorage and are not sent to a model.
 
-**Does a recommendation take action?** No. A human button changes only transient local demo state. There is no connection to a bank, customer account, regulator, or case system.
+**Does a recommendation take action?** No. The analyst’s disposition changes only demo state. There is no connection to a bank, account, regulator, or case system.
 
-**Does this already satisfy the Global challenge?** That cannot be claimed until the official problem statement is available, selected, and reflected in a substantive project adaptation.
+**Does this already satisfy the Global challenge?** Do not claim that until the prompt is published, selected, and addressed by a visible, substantive adaptation.
