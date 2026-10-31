@@ -1,65 +1,48 @@
-# SignalFlow — submission narrative
+# Archived concept narrative — Azentio.ai Build Labs
 
-## One-line pitch
+**Provenance note:** This document records the original AML concept prepared for the separate Azentio.ai Build Labs event. It is not a final submission for the Global AI Hackathon. The Global challenge statement must be selected and the product adapted before that event's submission.
 
-**SignalFlow is an explainable AI investigation copilot that helps AML analysts move from alert to defensible next action without removing human judgment.**
+## One-line concept
+
+**SignalFlow is a synthetic-data AML investigation demo that organizes alert evidence and offers a human-reviewed next-step draft.**
 
 ## The problem
 
-AML teams must investigate large volumes of alerts while preserving evidence, consistency, and regulatory defensibility. A score alone is not enough: analysts need to understand the signal, see what context is missing, and document why a case was escalated or closed. The cost of a weak workflow is not only analyst time; it is inconsistent decisions, repeated work, and harder audits.
+AML teams may need to assemble customer, transaction, screening, and policy context before deciding what to review next. A score alone does not explain the signal or what context is missing. The concept aims to make an investigation workflow and evidence-linked rationale easier to inspect, while leaving the disposition to an analyst.
 
 ## The solution
 
-SignalFlow is a focused investigation layer. It receives an alert and builds a small agent graph:
+SignalFlow is a focused investigator interface. It shows a fictional prioritized queue, case evidence, a four-stage workflow visualization, and a suggested next step. The four stages are a presentation of the investigation process; they are not four separately running AI agents. In the public static website, deterministic sample rules produce the draft. A local Node.js endpoint can optionally call an OpenAI-compatible model on a fixed synthetic case if the operator provides a key.
 
-- **Context agent** assembles customer and peer-profile context.
-- **Pattern agent** explains velocity, network, corridor, or document anomalies.
-- **Policy agent** checks the relevant rule and jurisdiction context.
-- **Decision agent** produces a grounded next-best action with uncertainty.
-
-The analyst sees the evidence and agent trace, asks a case-grounded question, and makes the final disposition. Each action becomes an auditable event.
+The case question box uses deterministic keyword-based demo responses. The analyst can mark a case reviewed or escalated in the current browser session. Those choices are not sent to a source system. The session log is transient and is not an immutable audit trail.
 
 ## What is novel
 
-Most “AI for AML” demos stop at a risk score or a chatbot. SignalFlow is deliberately narrower and more operational: it makes the investigation chain visible. Its value is not autonomous enforcement. Its value is reducing the time between “this alert fired” and “a qualified human can explain what happens next.”
+The concept focuses on the investigation handoff rather than autonomous enforcement. Its intended value is to put alert context, visible evidence, uncertainty, and a human decision point together in one review flow. This is a design hypothesis, not a measured production result.
 
 ## Working prototype
 
 The prototype includes:
 
-- Prioritized AML review queue with risk, trigger, status, and synthetic customer context.
-- Case workspace with evidence cards and event trace.
-- Animated multi-agent investigation graph.
-- Evidence-grounded Copilot Q&A.
-- Human approval gate with Escalate and Mark reviewed actions.
-- Local deterministic fallback for safe offline demos.
-- Optional OpenAI-compatible structured-output endpoint for model-backed mode.
+- A responsive fictional AML review queue with risk filters and sort order.
+- Case workspaces containing synthetic evidence and event traces.
+- A staged investigation display with deterministic fallback and optional local model-backed draft.
+- Deterministic case-grounded question-and-answer examples.
+- Explicit human escalate/review controls and a browser-session event view.
+- Synthetic-only risk summary and an illustrative, non-policy playbook.
 
-## Business relevance
+## Business relevance hypothesis
 
-SignalFlow is designed to complement the public AMLOCK workflow areas of transaction monitoring, advanced analytics, investigations, and regulatory reporting. It can be introduced as a thin experience layer over existing alerts and case data, avoiding a rip-and-replace implementation. The first measurable pilot hypotheses are:
-
-1. Reduce median alert-to-disposition time.
-2. Increase the percentage of decisions with evidence-linked rationale.
-3. Reduce avoidable escalations without suppressing high-confidence cases.
-4. Improve analyst consistency across similar cases.
-
-These are hypotheses, not claimed production results.
+The original concept was explored against public Azentio AML product context. A possible future pilot, subject to an approved partner environment and integration, could evaluate analyst review time, evidence-linked rationale, and consistency across similar alerts. No production efficiency or accuracy results are claimed.
 
 ## Technical approach
 
-The demo is zero-dependency HTML/CSS/JavaScript with a Node server. The case adapter is intentionally replaceable. In production, the adapter would read AMLOCK events, retrieve tenant-scoped customer context, call a policy service, and write signed audit events. The model endpoint is constrained to structured JSON, low temperature, synthetic case grounding, and a human review requirement.
+The public demo is a static HTML/CSS/JavaScript site on GitHub Pages. The optional local server uses Node.js built-in modules. If configured, one OpenAI-compatible structured-output request generates the recommendation from server-owned synthetic case data. The endpoint validates inputs and output and falls back to deterministic rules when the model is unavailable. The server is loopback-only and is not a production deployment.
 
 ## Security and responsible AI
 
-The demo contains no real customer data. The proposed production design includes tenant isolation, field-level redaction, role-based access, prompt-injection filtering on retrieved text, policy-version logging, model/evidence traceability, confidence thresholds, and mandatory human approval for material actions.
+The prototype contains no customer data. No user-provided names, evidence, or free text are forwarded to the optional model endpoint; only known synthetic case IDs are accepted. A model draft does not make a disposition. The UI labels fictional content, shows uncertainty, and requires a human selection. Production use would require an approved data source, identity and authorization, tenant isolation, retention controls, durable signed audit, model governance, evaluation, and compliance-owner approval.
 
-## Judging alignment
+## Original concept alignment
 
-- **Problem understanding:** targets the operational investigation bottleneck, not “AI” as a novelty.
-- **Technical implementation:** functional queue, case graph, optional model endpoint, local fallback, and explicit contracts.
-- **Innovation:** transparent agent handoff and evidence-first explanation layer.
-- **Business relevance:** aligns with Azentio’s public AML, risk, investigation, and compliance portfolio.
-- **Usability:** one focused 3-minute flow for an investigator.
-- **Scalability:** replaceable adapter and policy/model boundaries support multiple jurisdictions and workflows.
-- **Integrity:** synthetic data, public-source positioning, no claim of official Azentio affiliation.
+This concept was prepared against Azentio Build Labs' broad AML/investigation context. It is not evidence that it matches a later challenge statement. The Global AI Hackathon is a separate event; its challenge-specific fit and reuse eligibility require review against that event's released prompt and rules.

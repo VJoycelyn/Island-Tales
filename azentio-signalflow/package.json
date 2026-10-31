@@ -1,9 +1,15 @@
 {
-  "name": "azentio-signalflow",
+  "name": "signalflow-demo",
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "SignalFlow: an explainable AI copilot for AML alert triage and investigation.",
-  "scripts": { "dev": "node server.mjs", "start": "node server.mjs" },
-  "engines": { "node": ">=18" }
+  "description": "SignalFlow: a synthetic-data AML investigation copilot demo with an optional local model endpoint.",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
 }
