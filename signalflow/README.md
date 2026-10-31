@@ -8,7 +8,7 @@ SignalFlow is a fictional-data prototype that helps an AML investigator review a
 
 ## Current demo
 
-The public GitHub Pages site is a static deployment. It runs locally in the browser against five fictional cases and deterministic demo rules; it does not contact a model service. It now has a working risk filter and queue sort, case workspace, staged investigation display, case-grounded deterministic demo Q&A, human escalate/review actions, a risk summary based on the sample cases, an illustrative playbook, and a session-only in-memory event view. The event view is cleared when the page is refreshed and is not an immutable audit trail.
+The public GitHub Pages site is a static deployment. It runs in the browser against fictional cases and deterministic demo rules; it does not contact a model service. The Demo Data view supports adding, editing, and removing examples, and restoring the built-in sample. Changes persist in this browser’s localStorage and update the queue totals and risk insights. User-entered examples are never sent to a model endpoint. The app also has a risk filter and queue sort, case workspace, staged investigation display, case-grounded deterministic Q&A, human escalate/review actions, an illustrative playbook, and a session-only in-memory event view. The event view is cleared on refresh and is not an immutable audit trail.
 
 The optional model-backed endpoint is available only when running the Node server locally with an explicitly supplied API key. That endpoint accepts only a server-owned synthetic case ID and ignores caller-supplied case facts. It makes one structured-output model request for a draft recommendation. The four visible investigation stages are a sequence visualization; they are not four separate AI agents. The Q&A widget is deterministic in both the public site and local demo.
 
@@ -22,11 +22,7 @@ npm run dev
 # open http://127.0.0.1:4173
 ```
 
-Run the automated HTTP/security smoke tests with. They exercise the model path against a local mock provider and make no paid external model call or use of a real API key:
-
-```bash
-npm test
-```
+Run `npm test` for automated HTTP/security smoke tests. They exercise the model path against a local mock provider and make no paid external model call or use of a real API key.
 
 For optional model-backed investigation, provide an approved OpenAI-compatible key in the environment before starting the server:
 
@@ -46,7 +42,7 @@ Manus AI was used as a coding assistant to develop the prototype. The page loads
 
 All case names, amounts, scores, evidence, timelines, metrics, and charts are synthetic. Risk scores are prioritization examples, not findings of misconduct. Model text is a draft suggestion only. Human users retain the final decision. The session log exists only in browser memory and does not write to an AML source system. The optional server is a local hackathon demo and lacks production SSO, tenant isolation, durable storage, enterprise audit, and deployment controls.
 
-Do not enter or upload real customer, Azentio, or other confidential data into the public site or an unapproved model service. Any production use would require approved source interfaces, identity/authorization, retention and data-residency decisions, security review, model governance, evaluation, and AML-owner approval.
+Do not enter or upload real customer, financial, or other confidential data into the public site or an unapproved model service. Any production use would require approved source interfaces, identity/authorization, retention and data-residency decisions, security review, model governance, evaluation, and AML-owner approval.
 
 ## Hackathon materials
 
@@ -60,11 +56,11 @@ Do not enter or upload real customer, Azentio, or other confidential data into t
 
 - `index.html` — dashboard, responsive case queue, views, and accessible case dialog.
 - `style.css` — dark control-room presentation, mobile navigation, focus states, and reduced-motion behavior.
-- `app.js` — fictional case fixture rendering, per-case run state, deterministic fallback, demo Q&A, filters, dispositions, and session events.
+- `app.js` — synthetic case validation/persistence, data CRUD, queue/insight updates, per-case run state, deterministic fallback, demo Q&A, filters, dispositions, and session events.
 - `server.mjs` — loopback-only static server and optional synthetic-ID model endpoint with bounded requests and allowlisted files.
 - `tests/server.test.mjs` — dependency-free API and static-server tests.
 - `manus-routes.json` — static page route declaration.
 
 ## Build and reuse note
 
-The initial SignalFlow prototype was built for the separate Azentio.ai Build Labs project in October 2026, before the Global AI Hackathon problem statement release. The Global event permits reusable components but expects the core project to be developed during the hackathon. Disclose this history, confirm eligibility with the organizers, and make a substantive adaptation to the released Global challenge before submission. Do not claim the existing prototype was newly created after the challenge statement became available.
+The initial SignalFlow prototype was built for the separate Azentio.ai Build Labs project in October 2026, before the Global AI Hackathon problem statement release. The event rules expect the core project to be substantially developed during the official event and require original or properly licensed components. The prior prototype is disclosed; confirm reuse eligibility and the required level of new work with organizers, then make a substantive adaptation to the released challenge before submission. Do not claim the existing prototype was newly created after the challenge statement became available.

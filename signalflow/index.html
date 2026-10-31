@@ -25,6 +25,7 @@
         <button class="nav-item" data-view="insights" aria-label="Risk insights" title="Risk insights"><span class="nav-icon" aria-hidden="true">◒</span><span>Risk insights</span></button>
         <button class="nav-item" data-view="playbook" aria-label="Playbooks" title="Playbooks"><span class="nav-icon" aria-hidden="true">◇</span><span>Playbooks</span></button>
         <button class="nav-item" data-view="audit" aria-label="Session audit trail" title="Session audit trail"><span class="nav-icon" aria-hidden="true">◌</span><span>Audit trail</span></button>
+        <button class="nav-item" data-view="data" aria-label="Manage synthetic demo data" title="Manage synthetic demo data"><span class="nav-icon" aria-hidden="true">▤</span><span>Demo data</span></button>
       </nav>
       <div class="sidebar-spacer"></div>
       <div class="guardrail-card"><div class="guardrail-icon" aria-hidden="true">✓</div><div><b>Human gate active</b><p>AI can recommend. Analysts decide.</p></div></div>
@@ -41,10 +42,10 @@
         <div class="hero-strip"><div><span class="section-kicker">CONTROL ROOM · SYNTHETIC CASES</span><h2>Resolve the signal, not the noise.</h2><p>SignalFlow connects alert evidence and context into one reviewable investigation. Demo records only; no live monitoring.</p></div><div class="hero-orbit" aria-hidden="true"><div class="orbit-core">AI</div><span class="orbit-tag tag-one">Context</span><span class="orbit-tag tag-two">Policy</span><span class="orbit-tag tag-three">Network</span></div></div>
 
         <div class="metric-grid" aria-label="Illustrative synthetic demo metrics">
-          <article class="metric-card"><div class="metric-top"><span>Sample cases</span><span class="metric-icon amber" aria-hidden="true">◈</span></div><strong>05</strong><small>Fictional queue records</small></article>
+          <article class="metric-card"><div class="metric-top"><span>Sample cases</span><span class="metric-icon amber" aria-hidden="true">◈</span></div><strong id="metric-case-count">05</strong><small>Fictional queue records</small></article>
           <article class="metric-card"><div class="metric-top"><span>AI triage coverage</span><span class="metric-icon cyan" aria-hidden="true">✦</span></div><strong>84<span class="unit">%</span></strong><small>Illustrative synthetic metric</small></article>
           <article class="metric-card"><div class="metric-top"><span>Median review time</span><span class="metric-icon purple" aria-hidden="true">◷</span></div><strong>18<span class="unit">m</span></strong><small>Illustrative synthetic metric</small></article>
-          <article class="metric-card"><div class="metric-top"><span>Needs analyst review</span><span class="metric-icon red" aria-hidden="true">!</span></div><strong>04</strong><small>Sample statuses only · human gate</small></article>
+          <article class="metric-card"><div class="metric-top"><span>Needs analyst review</span><span class="metric-icon red" aria-hidden="true">!</span></div><strong id="metric-review-count">04</strong><small>Sample statuses only · human gate</small></article>
         </div>
 
         <div class="content-grid">
@@ -59,11 +60,31 @@
         </div>
       </section>
 
-      <section id="view-insights" class="view" aria-labelledby="insights-heading"><div class="section-page-head"><span class="section-kicker">RISK INSIGHTS · SYNTHETIC DATA</span><h2 id="insights-heading">Patterns in the sample queue.</h2><p>Counts below are calculated from the five fictional cases included with this demo.</p></div><div id="insights-content"></div><button class="secondary-button" data-view="queue" type="button">Return to queue</button></section>
+      <section id="view-insights" class="view" aria-labelledby="insights-heading"><div class="section-page-head"><span class="section-kicker">RISK INSIGHTS · SYNTHETIC DATA</span><h2 id="insights-heading">Patterns in the sample queue.</h2><p>Counts below update from the synthetic examples currently stored in this browser.</p></div><div id="insights-content"></div><button class="secondary-button" data-view="queue" type="button">Return to queue</button></section>
 
       <section id="view-playbook" class="view" aria-labelledby="playbook-heading"><div class="section-page-head"><span class="section-kicker">DEMO PLAYBOOK · NOT REGULATORY POLICY</span><h2 id="playbook-heading">Rapid movement of funds</h2><p>Illustrative analyst checklist for the fictional Nadia Rahman case. Confirm all real policies with the institution; this is not an approved compliance playbook.</p></div><ol class="playbook-steps"><li><b>Review the alert trigger.</b><span>Compare transfer count and timing with the source alert and stated baseline.</span></li><li><b>Inspect beneficiary and device context.</b><span>Check whether new beneficiaries or device changes have an authorized explanation.</span></li><li><b>Validate corridor context.</b><span>Review the relevant transaction records and applicable jurisdictional procedure.</span></li><li><b>Record a human decision.</b><span>Document evidence, uncertainty, and the reason for any escalation or closure.</span></li></ol><button class="secondary-button" data-open-case="ALT-24081" type="button">Open sample case ALT-24081</button></section>
 
       <section id="view-audit" class="view" aria-labelledby="audit-heading"><div class="section-page-head"><span class="section-kicker">SESSION AUDIT TRAIL · DEMO</span><h2 id="audit-heading">Actions in this browser tab.</h2><p>This temporary in-memory log is for demonstration only. It is not durable, immutable, or connected to an AML case system; refreshing clears it.</p></div><div id="audit-events"></div></section>
+      <section id="view-data" class="view" aria-labelledby="data-heading">
+        <div class="section-page-head"><span class="section-kicker">DEMO DATA · BROWSER ONLY</span><h2 id="data-heading">Change the sample inputs.</h2><p>Add, edit, and remove fictional alert examples. Queue totals and risk insights update from the records currently stored in this browser.</p></div>
+        <aside class="data-warning" role="note" aria-label="Synthetic data warning"><strong>SYNTHETIC DATA ONLY</strong><p>Use aliases beginning with “Sample” or “Demo.” These entries are stored in this browser only and are never uploaded or sent to the model endpoint. Do not enter real names, account numbers, transactions, or confidential information.</p></aside>
+        <div class="data-layout">
+          <form id="demo-case-form" class="panel data-form" novalidate>
+            <div class="panel-header"><div><span class="section-kicker">INPUT WORKSPACE</span><h3 id="data-form-title">Add a synthetic alert</h3></div></div>
+            <input id="demo-edit-id" type="hidden" value="" />
+            <div class="data-fields">
+              <div class="data-field data-field-full"><label for="demo-alias">Fictional subject alias</label><input id="demo-alias" type="text" maxlength="60" placeholder="Sample Merchant 01" autocomplete="off" required aria-describedby="demo-alias-help" /><small id="demo-alias-help">Required. Start the alias with “Sample” or “Demo.”</small></div>
+              <div class="data-field"><label for="demo-country">Country / region code</label><input id="demo-country" type="text" maxlength="2" pattern="[A-Za-z]{2}" placeholder="AE" autocomplete="off" required /></div>
+              <div class="data-field"><label for="demo-trigger">Synthetic alert type</label><select id="demo-trigger" required><option value="velocity">Rapid movement of funds</option><option value="cash">Unusual cash deposits</option><option value="sanctions">Sanctions name similarity</option><option value="trade">Trade finance anomaly</option><option value="dormant">Dormant account reactivation</option><option value="other">Other synthetic pattern</option></select></div>
+              <div class="data-field"><label for="demo-score">Example risk score (0–100)</label><input id="demo-score" type="number" min="0" max="100" step="1" value="50" required /></div>
+              <div class="data-field"><label for="demo-amount">Example amount</label><input id="demo-amount" type="number" min="0.01" max="1000000000000" step="0.01" value="1000" required /></div>
+              <div class="data-field"><label for="demo-currency">Currency code</label><input id="demo-currency" type="text" maxlength="3" pattern="[A-Za-z]{3}" value="USD" autocomplete="off" required /></div>
+            </div>
+            <div class="data-form-actions"><button id="demo-save" class="run-button" type="submit">Add sample alert</button><button id="demo-cancel-edit" class="secondary-button" type="button" data-cancel-demo-edit hidden>Cancel edit</button></div>
+          </form>
+          <section class="panel data-records-panel" aria-labelledby="data-records-heading"><div class="panel-header data-records-header"><div><span class="section-kicker">LOCAL DEMO RECORDS</span><h3 id="data-records-heading">Manage examples</h3><p id="demo-record-count" class="data-count" role="status" aria-live="polite"></p></div><button class="secondary-button" type="button" data-reset-demo>Restore initial sample</button></div><div id="demo-data-list" class="data-record-list" aria-live="polite"></div></section>
+        </div>
+      </section>
     </main>
   </div>
 
