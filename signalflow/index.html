@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#07111f" />
+  <meta name="description" content="SignalFlow — an explainable AML investigation copilot concept using synthetic demo data." />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'" />
+  <title>SignalFlow · AI investigation copilot</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Primary navigation">
+      <div class="brand-block">
+        <div class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></div>
+        <div><strong>signal<span>flow</span></strong><small>AI investigation layer</small></div>
+      </div>
+      <div class="tenant-switcher" aria-label="Synthetic demo workspace"><span class="tenant-dot"></span><div><small>Demo workspace</small><b>Meridian Finance</b></div><span class="chevron" aria-hidden="true">⌄</span></div>
+      <nav class="nav-stack" aria-label="Demo sections">
+        <button class="nav-item active" data-view="queue" aria-current="page" aria-label="Review queue" title="Review queue"><span class="nav-icon" aria-hidden="true">◈</span><span>Review queue</span><em>5</em></button>
+        <button class="nav-item" data-view="insights" aria-label="Risk insights" title="Risk insights"><span class="nav-icon" aria-hidden="true">◒</span><span>Risk insights</span></button>
+        <button class="nav-item" data-view="playbook" aria-label="Playbooks" title="Playbooks"><span class="nav-icon" aria-hidden="true">◇</span><span>Playbooks</span></button>
+        <button class="nav-item" data-view="audit" aria-label="Session audit trail" title="Session audit trail"><span class="nav-icon" aria-hidden="true">◌</span><span>Audit trail</span></button>
+      </nav>
+      <div class="sidebar-spacer"></div>
+      <div class="guardrail-card"><div class="guardrail-icon" aria-hidden="true">✓</div><div><b>Human gate active</b><p>AI can recommend. Analysts decide.</p></div></div>
+      <div class="profile"><div class="avatar" aria-hidden="true">AR</div><div><b>Amara Reyes</b><small>Sample investigator</small></div><span class="more" aria-hidden="true">•••</span></div>
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar">
+        <div><p class="eyebrow">DEMO SNAPSHOT · 31 OCT 2026 <span class="live-dot"></span> SYNTHETIC ONLY</p><h1>Good morning, Amara.</h1></div>
+        <div class="topbar-actions"><span class="synthetic-pill"><span></span> Synthetic demo data</span><button class="icon-button" type="button" disabled aria-label="Notifications inactive in demo" title="Notifications inactive in demo">♢</button><button class="avatar avatar-small" type="button" disabled aria-label="Profile menu inactive in demo" title="Profile menu inactive in demo">AR</button></div>
+      </header>
+
+      <section id="view-queue" class="view active-view" aria-labelledby="queue-heading">
+        <div class="hero-strip"><div><span class="section-kicker">CONTROL ROOM · SYNTHETIC CASES</span><h2>Resolve the signal, not the noise.</h2><p>SignalFlow connects alert evidence and context into one reviewable investigation. Demo records only; no live monitoring.</p></div><div class="hero-orbit" aria-hidden="true"><div class="orbit-core">AI</div><span class="orbit-tag tag-one">Context</span><span class="orbit-tag tag-two">Policy</span><span class="orbit-tag tag-three">Network</span></div></div>
+
+        <div class="metric-grid" aria-label="Illustrative synthetic demo metrics">
+          <article class="metric-card"><div class="metric-top"><span>Sample cases</span><span class="metric-icon amber" aria-hidden="true">◈</span></div><strong>05</strong><small>Fictional queue records</small></article>
+          <article class="metric-card"><div class="metric-top"><span>AI triage coverage</span><span class="metric-icon cyan" aria-hidden="true">✦</span></div><strong>84<span class="unit">%</span></strong><small>Illustrative synthetic metric</small></article>
+          <article class="metric-card"><div class="metric-top"><span>Median review time</span><span class="metric-icon purple" aria-hidden="true">◷</span></div><strong>18<span class="unit">m</span></strong><small>Illustrative synthetic metric</small></article>
+          <article class="metric-card"><div class="metric-top"><span>Needs analyst review</span><span class="metric-icon red" aria-hidden="true">!</span></div><strong>04</strong><small>Sample statuses only · human gate</small></article>
+        </div>
+
+        <div class="content-grid">
+          <section class="panel queue-panel" aria-labelledby="queue-heading">
+            <div class="panel-header"><div><span class="section-kicker">PRIORITIZED QUEUE · DEMO</span><h3 id="queue-heading">Alerts needing review</h3></div><div class="panel-actions"><button class="filter-button" data-filter="risk" type="button" aria-label="Cycle risk filter">All risk <span aria-hidden="true">⌄</span></button><button class="filter-button" data-filter="sort" type="button" aria-label="Toggle queue sort order">Newest <span aria-hidden="true">⌄</span></button></div></div>
+            <div class="queue-table" aria-label="Synthetic AML alert queue">
+              <div class="queue-row queue-head" aria-hidden="true"><span>CASE</span><span>TRIGGER</span><span>RISK</span><span>STATUS</span><span></span></div>
+              <ul id="case-list" class="case-list" aria-label="Synthetic AML cases"></ul>
+            </div>
+          </section>
+          <aside class="panel pulse-panel"><div class="panel-header"><div><span class="section-kicker">SYNTHETIC DATA</span><h3>Sample volume pattern</h3></div><span class="status-chip good">Demo</span></div><div class="pulse-chart" aria-label="Illustrative seven-day synthetic alert volume"><div class="chart-y" aria-hidden="true"><span>100</span><span>50</span><span>0</span></div><div class="bars" aria-hidden="true"><i style="height:34%"></i><i style="height:46%"></i><i style="height:39%"></i><i style="height:66%"></i><i style="height:50%"></i><i style="height:78%"></i><i class="today" style="height:45%"></i></div><div class="chart-x" aria-hidden="true"><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span><span>Mon</span></div></div><div class="pulse-note"><span class="pulse-line" aria-hidden="true"></span><p><b>Illustrative sample distribution</b><br />No operational or customer data is shown.</p></div><div class="source-note"><span class="source-dot" aria-hidden="true"></span>All values are fictional demo values</div></aside>
+        </div>
+      </section>
+
+      <section id="view-insights" class="view" aria-labelledby="insights-heading"><div class="section-page-head"><span class="section-kicker">RISK INSIGHTS · SYNTHETIC DATA</span><h2 id="insights-heading">Patterns in the sample queue.</h2><p>Counts below are calculated from the five fictional cases included with this demo.</p></div><div id="insights-content"></div><button class="secondary-button" data-view="queue" type="button">Return to queue</button></section>
+
+      <section id="view-playbook" class="view" aria-labelledby="playbook-heading"><div class="section-page-head"><span class="section-kicker">DEMO PLAYBOOK · NOT REGULATORY POLICY</span><h2 id="playbook-heading">Rapid movement of funds</h2><p>Illustrative analyst checklist for the fictional Nadia Rahman case. Confirm all real policies with the institution; this is not an approved compliance playbook.</p></div><ol class="playbook-steps"><li><b>Review the alert trigger.</b><span>Compare transfer count and timing with the source alert and stated baseline.</span></li><li><b>Inspect beneficiary and device context.</b><span>Check whether new beneficiaries or device changes have an authorized explanation.</span></li><li><b>Validate corridor context.</b><span>Review the relevant transaction records and applicable jurisdictional procedure.</span></li><li><b>Record a human decision.</b><span>Document evidence, uncertainty, and the reason for any escalation or closure.</span></li></ol><button class="secondary-button" data-open-case="ALT-24081" type="button">Open sample case ALT-24081</button></section>
+
+      <section id="view-audit" class="view" aria-labelledby="audit-heading"><div class="section-page-head"><span class="section-kicker">SESSION AUDIT TRAIL · DEMO</span><h2 id="audit-heading">Actions in this browser tab.</h2><p>This temporary in-memory log is for demonstration only. It is not durable, immutable, or connected to an AML case system; refreshing clears it.</p></div><div id="audit-events"></div></section>
+    </main>
+  </div>
+
+  <div id="case-drawer" class="drawer-backdrop" aria-hidden="true"><aside class="case-drawer" role="dialog" aria-modal="true" aria-labelledby="drawer-title" tabindex="-1"><button id="close-drawer" class="close-drawer" type="button" aria-label="Close case">×</button><div id="drawer-content"></div></aside></div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -16,9 +16,9 @@ The user-provided HackCulture dashboard screenshot showed the project title and 
 
 ## Compliance checklist
 
-**Working project/demo — prepared.** The public website is available at https://vjoycelyn.github.io/Island-Tales/azentio-signalflow/. It uses synthetic cases. Its Node-based fallback and optional model path have automated HTTP tests. It is a prototype, not a production AML deployment.
+**Working project/demo — prepared.** The public website is available at https://vjoycelyn.github.io/Island-Tales/signalflow/. It uses synthetic cases. Its Node-based fallback and optional model path have automated HTTP tests. It is a prototype, not a production AML deployment.
 
-**Source repository — prepared.** For reviewers, use the subdirectory link https://github.com/VJoycelyn/Island-Tales/tree/main/azentio-signalflow so they land directly on the SignalFlow README and source rather than the unrelated repository-root project.
+**Source repository — prepared.** For reviewers, use the subdirectory link https://github.com/VJoycelyn/Island-Tales/tree/main/signalflow so they land directly on the SignalFlow README and source rather than the unrelated repository-root project.
 
 **Project and problem description — prepared, exact challenge fit pending.** The draft explains the AML investigation problem and the proposed product. Replace the generic problem framing with the exact Global AI statement and demonstrate a meaningful adaptation after the official challenge is released.
 

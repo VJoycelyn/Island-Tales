@@ -1,7 +1,7 @@
 # SignalFlow — synthetic AML investigation copilot demo
 
-**Project demo:** https://vjoycelyn.github.io/Island-Tales/azentio-signalflow/
-**Source:** https://github.com/VJoycelyn/Island-Tales/tree/main/azentio-signalflow
+**Project demo:** https://vjoycelyn.github.io/Island-Tales/signalflow/
+**Source:** https://github.com/VJoycelyn/Island-Tales/tree/main/signalflow
 **Current event context:** Global AI Hackathon by Geek Room. The exact problem statement/track must be selected and incorporated after the official release; see [`HACKATHON_READINESS.md`](./HACKATHON_READINESS.md) and [`GLOBAL_AI_HACKATHON_SUBMISSION.md`](./GLOBAL_AI_HACKATHON_SUBMISSION.md).
 
 SignalFlow is a fictional-data prototype that helps an AML investigator review an alert, inspect supporting evidence, and see a suggested next review step. It demonstrates an evidence-first interface and a human approval gate. It is not an official Azentio product, an operational AML platform, or a validated compliance decision service.
@@ -17,7 +17,7 @@ The optional model-backed endpoint is available only when running the Node serve
 Requires Node.js 18 or newer. There are no installed npm runtime dependencies.
 
 ```bash
-cd azentio-signalflow
+cd signalflow
 npm run dev
 # open http://127.0.0.1:4173
 ```

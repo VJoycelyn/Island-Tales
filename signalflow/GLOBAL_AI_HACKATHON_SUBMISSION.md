@@ -1,8 +1,8 @@
 # Global AI Hackathon — SignalFlow Submission Draft
 
 **Project title:** SignalFlow — Evidence-Grounded AML Investigation Copilot
-**Repository:** https://github.com/VJoycelyn/Island-Tales/tree/main/azentio-signalflow
-**Working demo:** https://vjoycelyn.github.io/Island-Tales/azentio-signalflow/
+**Repository:** https://github.com/VJoycelyn/Island-Tales/tree/main/signalflow
+**Working demo:** https://vjoycelyn.github.io/Island-Tales/signalflow/
 **Exact Global AI challenge/track:** Complete after reviewing the official problem statement released for the event.
 
 ## Challenge fit — pending official problem statement
